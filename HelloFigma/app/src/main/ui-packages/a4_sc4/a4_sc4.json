@@ -1,0 +1,683 @@
+{
+  "name": "a4_sc4",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "qKmWBlqDJZ3ypCEU21sTot",
+    "node": "209:791",
+    "version": "4719784214",
+    "component-id": "1ae22436afc09bd36e216645e5c2c98914ed1e75"
+  },
+  "default": "A4_SC4",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "group",
+        "id": "Group 35"
+      },
+      {
+        "type": "group",
+        "id": "Group 379"
+      },
+      {
+        "type": "group",
+        "id": "Status Bar / Time / 01 Default"
+      },
+      {
+        "type": "group",
+        "id": "Battery"
+      },
+      {
+        "type": "text",
+        "id": "09:41"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle"
+      },
+      {
+        "type": "vector",
+        "id": "Combined Shape"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle1"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 471"
+      },
+      {
+        "type": "group",
+        "id": "Group 370"
+      },
+      {
+        "type": "group",
+        "id": "Group 383"
+      },
+      {
+        "type": "group",
+        "id": "Group 369"
+      },
+      {
+        "type": "group",
+        "id": "Group 368"
+      },
+      {
+        "type": "text",
+        "id": "Hello Jonathan"
+      },
+      {
+        "type": "text",
+        "id": "Hello Jonathan1"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 1722"
+      },
+      {
+        "type": "group",
+        "id": "Frame 3195"
+      },
+      {
+        "type": "group",
+        "id": "Property Listing & Tenant Onboarding"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 1723"
+      },
+      {
+        "type": "text",
+        "id": "Summary of Financial Accounts"
+      },
+      {
+        "type": "text",
+        "id": "Property Listing & Tenant Onboarding1"
+      }
+    ],
+    "modes": {
+      "A4_SC4": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "Group 35",
+              "Group 379"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            }
+          },
+          {
+            "id": "Group 35",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "15.6051025390625"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "12.13720703125"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "360.71246337890625"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "18.2060546875"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Status Bar / Time / 01 Default",
+              "Battery"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Group 379",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "-9.54571533203125"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "413.59619140625"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "808.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Rectangle 471",
+              "Group 370",
+              "Group 383"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Status Bar / Time / 01 Default",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "46.8154296875"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "18.2060546875"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "09:41"
+            ]
+          },
+          {
+            "id": "Battery",
+            "margin": {
+              "left": "339.90557861328125",
+              "top": "4.3349609375",
+              "bottom": "4.33447265625"
+            },
+            "is-structured": "false",
+            "children": [
+              "Rectangle",
+              "Combined Shape",
+              "Rectangle1"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "09:41",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "1.73388671875"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "46.8154296875"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "14.73828125"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "221.7391304347826",
+              "saturation": "0.575",
+              "value": "0.1568627450980392"
+            },
+            "text-content": "09:41",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "12.137338638305664",
+            "letter-spacing": "-0.20806866884231567",
+            "line-height": "1.5000000785735939",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Rectangle",
+            "border-radius": "2.3118741512298584",
+            "alignment": {
+              "horizontal": {
+                "attachment": "end",
+                "offset": "-1.9910888671875"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "18.8157958984375"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "9.53662109375"
+              }
+            },
+            "vector-content": "rectangle.svg"
+          },
+          {
+            "id": "Combined Shape",
+            "alignment": {
+              "horizontal": {
+                "attachment": "end",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "3.08544921875"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "1.1358642578125"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "3.36572265625"
+              }
+            },
+            "vector-content": "combined_shape.svg"
+          },
+          {
+            "id": "Rectangle1",
+            "border-radius": "1.1559370756149292",
+            "alignment": {
+              "horizontal": {
+                "attachment": "end",
+                "offset": "-3.7015380859375"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "1.68310546875"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "15.394775390625"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "6.1708984375"
+              }
+            },
+            "vector-content": "rectangle1.svg"
+          },
+          {
+            "id": "Rectangle 471",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "9.54571533203125"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "413.59619140625"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "808.0"
+              }
+            },
+            "vector-content": "rectangle_471.svg"
+          },
+          {
+            "id": "Group 370",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "63.81951904296875"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "205.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "288.84564208984375"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "67.17333984375"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Group 369"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Group 383",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "60.9405517578125"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "308.63916015625"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "292.68408203125"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "95.001953125"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Rectangle 1722",
+              "Frame 3195",
+              "Property Listing & Tenant Onboarding"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Group 369",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "288.84564208984375"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "67.17333984375"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Group 368",
+              "Hello Jonathan"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Group 368",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "288.84564208984375"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "27.8291015625"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Hello Jonathan1"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Hello Jonathan",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "39.3447265625"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "288.84564208984375"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "27.8291015625"
+              }
+            },
+            "font-weight": "300.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Select your insight\n",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "19.192398071289062",
+            "letter-spacing": "-0.23030877113342285",
+            "line-height": "1.5",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Hello Jonathan1",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "288.84564208984375"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "27.8291015625"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "What do you want to view?\n",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "19.192398071289062",
+            "letter-spacing": "-0.23030877113342285",
+            "line-height": "1.5",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Rectangle 1722",
+            "border-radius": "75.80996704101562",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "53.73828125"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "290.764892578125"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "41.263671875"
+              }
+            },
+            "vector-content": "rectangle_1722.svg"
+          },
+          {
+            "id": "Frame 3195",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "1.91925048828125"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "290.76483154296875"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "41.263671875"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Rectangle 1723",
+              "Summary of Financial Accounts"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Property Listing & Tenant Onboarding",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "25.9097900390625"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "64.29443359375"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "242.7838134765625"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "20.15185546875"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Property Listing & Tenant Onboarding1"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Rectangle 1723",
+            "border-radius": "75.80996704101562",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "290.76483154296875"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "41.263671875"
+              }
+            },
+            "vector-content": "rectangle_1723.svg"
+          },
+          {
+            "id": "Summary of Financial Accounts",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "-0.00006103515625"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "10.5556640625"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "288.8455810546875"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "19.1923828125"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Summary of Financial Accounts",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "13.43467903137207",
+            "letter-spacing": "-0.23030877113342285",
+            "line-height": "1.5000000709860144",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Property Listing & Tenant Onboarding1",
+            "margin": {
+              "left": "91.0",
+              "right": "90.7838134765625",
+              "bottom": "0.15185546875"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Expenses",
+            "overflow": "visible",
+            "text-size": "13.434678077697754",
+            "letter-spacing": "-0.23030877113342285",
+            "line-height": "1.5000000354930096",
+            "typeface": "Poppins"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "A4_SC4",
+      "size": {
+        "width": 393.00006103515625,
+        "height": 808.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

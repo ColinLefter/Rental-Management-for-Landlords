@@ -1,0 +1,2759 @@
+{
+  "name": "a4_sc3",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "qKmWBlqDJZ3ypCEU21sTot",
+    "node": "209:790",
+    "version": "4719784214",
+    "component-id": "258b0f3dcdbc42f356ed205b6146b22ca7253616"
+  },
+  "default": "A4_SC3",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "group",
+        "id": "Dreamsville House"
+      },
+      {
+        "type": "group",
+        "id": "Location"
+      },
+      {
+        "type": "group",
+        "id": "Icon/arrow-left"
+      },
+      {
+        "type": "group",
+        "id": "Frame 22"
+      },
+      {
+        "type": "group",
+        "id": "Frame 23"
+      },
+      {
+        "type": "group",
+        "id": "Frame 24"
+      },
+      {
+        "type": "text",
+        "id": "Number Label"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 1722"
+      },
+      {
+        "type": "group",
+        "id": "Property Listing & Tenant Onboarding"
+      },
+      {
+        "type": "group",
+        "id": "Group 24"
+      },
+      {
+        "type": "group",
+        "id": "Group 35"
+      },
+      {
+        "type": "vector",
+        "id": "Shadow"
+      },
+      {
+        "type": "group",
+        "id": "Image"
+      },
+      {
+        "type": "vector",
+        "id": "Overlay"
+      },
+      {
+        "type": "group",
+        "id": "IC_Back"
+      },
+      {
+        "type": "text",
+        "id": "3 Bedroom Duplex"
+      },
+      {
+        "type": "text",
+        "id": "171 West Street 14"
+      },
+      {
+        "type": "group",
+        "id": "IC_Bookmark"
+      },
+      {
+        "type": "group",
+        "id": "Bathroom"
+      },
+      {
+        "type": "group",
+        "id": "Bedroom"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 13"
+      },
+      {
+        "type": "image",
+        "id": "webaliser-_TPTXZd9mOo-unsplash 1"
+      },
+      {
+        "type": "vector",
+        "id": "Ellipse 3"
+      },
+      {
+        "type": "group",
+        "id": "IC_Back1"
+      },
+      {
+        "type": "vector",
+        "id": "Vector"
+      },
+      {
+        "type": "vector",
+        "id": "Vector1"
+      },
+      {
+        "type": "vector",
+        "id": "Ellipse 4"
+      },
+      {
+        "type": "group",
+        "id": "IC_Bookmark1"
+      },
+      {
+        "type": "vector",
+        "id": "Vector2"
+      },
+      {
+        "type": "vector",
+        "id": "Vector3"
+      },
+      {
+        "type": "text",
+        "id": "3 Bathroom"
+      },
+      {
+        "type": "group",
+        "id": "IC_Bathroom"
+      },
+      {
+        "type": "group",
+        "id": "IC_Bath"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 20"
+      },
+      {
+        "type": "group",
+        "id": "Group"
+      },
+      {
+        "type": "group",
+        "id": "Group 1"
+      },
+      {
+        "type": "vector",
+        "id": "Vector4"
+      },
+      {
+        "type": "vector",
+        "id": "Vector5"
+      },
+      {
+        "type": "vector",
+        "id": "Vector6"
+      },
+      {
+        "type": "vector",
+        "id": "Vector7"
+      },
+      {
+        "type": "vector",
+        "id": "Vector8"
+      },
+      {
+        "type": "text",
+        "id": "3 Bedroom"
+      },
+      {
+        "type": "group",
+        "id": "IC_Bedroom"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 19"
+      },
+      {
+        "type": "group",
+        "id": "IC_Bed"
+      },
+      {
+        "type": "vector",
+        "id": "Vector9"
+      },
+      {
+        "type": "vector",
+        "id": "Vector10"
+      },
+      {
+        "type": "group",
+        "id": "Frame 2"
+      },
+      {
+        "type": "text",
+        "id": "Selected Property"
+      },
+      {
+        "type": "group",
+        "id": "Frame 1"
+      },
+      {
+        "type": "text",
+        "id": "171 West Street Suite 14"
+      },
+      {
+        "type": "group",
+        "id": "Iconly/Light/Arrow - Down 2"
+      },
+      {
+        "type": "group",
+        "id": "Iconly/Light/Arrow - Down 3"
+      },
+      {
+        "type": "group",
+        "id": "Arrow - Down 2"
+      },
+      {
+        "type": "vector",
+        "id": "Stroke 1"
+      },
+      {
+        "type": "group",
+        "id": "Iconly/Light/Arrow - Left 2"
+      },
+      {
+        "type": "group",
+        "id": "Arrow - Left 2"
+      },
+      {
+        "type": "vector",
+        "id": "Stroke 2"
+      },
+      {
+        "type": "text",
+        "id": "Monthly"
+      },
+      {
+        "type": "text",
+        "id": "Quarterly"
+      },
+      {
+        "type": "text",
+        "id": "YTD"
+      },
+      {
+        "type": "text",
+        "id": "Property Listing & Tenant Onboarding1"
+      },
+      {
+        "type": "vector",
+        "id": "Shadow1"
+      },
+      {
+        "type": "group",
+        "id": "Total Asset"
+      },
+      {
+        "type": "group",
+        "id": "Increasement"
+      },
+      {
+        "type": "group",
+        "id": "Group 36"
+      },
+      {
+        "type": "group",
+        "id": "Group 37"
+      },
+      {
+        "type": "group",
+        "id": "bxs-upvote 1"
+      },
+      {
+        "type": "text",
+        "id": "+2%"
+      },
+      {
+        "type": "vector",
+        "id": "Vector11"
+      },
+      {
+        "type": "text",
+        "id": "Asset Label"
+      },
+      {
+        "type": "text",
+        "id": "Title Label"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 3"
+      },
+      {
+        "type": "group",
+        "id": "Value increase"
+      },
+      {
+        "type": "group",
+        "id": "bxs-upvote 2"
+      },
+      {
+        "type": "text",
+        "id": "-12%"
+      },
+      {
+        "type": "vector",
+        "id": "Vector12"
+      },
+      {
+        "type": "vector",
+        "id": "Shadow2"
+      },
+      {
+        "type": "group",
+        "id": "Total Asset1"
+      },
+      {
+        "type": "group",
+        "id": "Increasement1"
+      },
+      {
+        "type": "group",
+        "id": "Group 38"
+      },
+      {
+        "type": "group",
+        "id": "Group 39"
+      },
+      {
+        "type": "group",
+        "id": "bxs-upvote 3"
+      },
+      {
+        "type": "text",
+        "id": "+2%1"
+      },
+      {
+        "type": "vector",
+        "id": "Vector13"
+      },
+      {
+        "type": "text",
+        "id": "Asset Label1"
+      },
+      {
+        "type": "text",
+        "id": "Title Label1"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 4"
+      },
+      {
+        "type": "group",
+        "id": "Value increase1"
+      },
+      {
+        "type": "group",
+        "id": "bxs-upvote 4"
+      },
+      {
+        "type": "text",
+        "id": "+0.2%"
+      },
+      {
+        "type": "vector",
+        "id": "Vector14"
+      }
+    ],
+    "modes": {
+      "A4_SC3": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "Dreamsville House",
+              "Location",
+              "Icon/arrow-left",
+              "Frame 22",
+              "Frame 23",
+              "Frame 24",
+              "Number Label",
+              "Rectangle 1722",
+              "Property Listing & Tenant Onboarding",
+              "Group 24",
+              "Group 35"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            }
+          },
+          {
+            "id": "Dreamsville House",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "41.39483642578125"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "89.21484375"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "310.458740234375"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "295.630859375"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Shadow",
+              "Image",
+              "Overlay",
+              "IC_Back",
+              "3 Bedroom Duplex",
+              "171 West Street 14",
+              "IC_Bookmark",
+              "Bathroom",
+              "Bedroom"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Location",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "189.64376831054688"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "45.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "160.60513305664062"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "31.4677734375"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Frame 2"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Icon/arrow-left",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "41.39483642578125"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "51.06884765625"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "20.806854248046875"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "20.806640625"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Iconly/Light/Arrow - Left 2"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Frame 22",
+            "padding": "8.669528007507324",
+            "border-radius": "10.403432846069336",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "57.866912841796875"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "428.193359375"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "83.22744750976562"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "37.27880859375"
+              }
+            },
+            "stroke-width": "0.8669527769088745",
+            "stroke-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.8705882352941177"
+            },
+            "arrangement": "row",
+            "children": [
+              "Monthly"
+            ],
+            "item-spacing": "8.669528007507324",
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "Frame 23",
+            "padding": "8.669528007507324",
+            "border-radius": "10.403432846069336",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "151.49783325195312"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "428.193359375"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "83.22744750976562"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "37.27880859375"
+              }
+            },
+            "stroke-width": "0.8669527769088745",
+            "arrangement": "row",
+            "children": [
+              "Quarterly"
+            ],
+            "item-spacing": "8.669528007507324",
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "Frame 24",
+            "padding": "8.669528007507324",
+            "border-radius": "10.403432846069336",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "245.12872314453125"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "428.193359375"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "83.22747802734375"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "stroke-width": "0.8669527769088745",
+            "stroke-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.8705882352941177"
+            },
+            "arrangement": "row",
+            "children": [
+              "YTD"
+            ],
+            "item-spacing": "8.669528007507324",
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "Number Label",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "41.39483642578125"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "384.845703125"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Analytics",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "20.806865692138672",
+            "line-height": "1.5",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Rectangle 1722",
+            "border-radius": "68.48926544189453",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "45.729583740234375"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "663.1376953125"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "304.3003845214844"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "37.27880859375"
+              }
+            },
+            "vector-content": "rectangle_1722.svg"
+          },
+          {
+            "id": "Property Listing & Tenant Onboarding",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "88.21026611328125"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "672.67431640625"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "219.33905029296875"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "18.2060546875"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Property Listing & Tenant Onboarding1"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Group 24",
+            "border-radius": "17.33905601501465",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "43.12872314453125"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "482.8115234375"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "306.9012451171875"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "84.09423828125"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Shadow1",
+              "Total Asset"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Group 35",
+            "border-radius": "17.33905601501465",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "43.12872314453125"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "560.8369140625"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "306.9012451171875"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "84.09423828125"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Shadow2",
+              "Total Asset1"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Shadow",
+            "border-radius": "18.534854888916016",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "178.861328125"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "273.38909912109375"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "98.23486328125"
+              }
+            },
+            "vector-content": "shadow.svg"
+          },
+          {
+            "id": "Image",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "310.458740234375"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "281.7294921875"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Rectangle 13",
+              "webaliser-_TPTXZd9mOo-unsplash 1"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Overlay",
+            "border-radius": "18.534854888916016",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "310.458740234375"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "281.7294921875"
+              }
+            },
+            "vector-content": "overlay.svg"
+          },
+          {
+            "id": "IC_Back",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "18.53485107421875"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "18.53466796875"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "31.509246826171875"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "31.50927734375"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Ellipse 3",
+              "IC_Back1"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "3 Bedroom Duplex",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "18.53485107421875"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "177.0078125"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "165.88690185546875"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "21.31494140625"
+              }
+            },
+            "font-weight": "600.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "3 Bedroom Duplex",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "18.534854888916016",
+            "line-height": "1.1740000259323236",
+            "typeface": "Raleway"
+          },
+          {
+            "id": "171 West Street 14",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "18.53485107421875"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "205.73681640625"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "206.66363525390625"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "12.974609375"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.8313725490196079"
+            },
+            "text-content": "171 West Street 14",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "11.120912551879883",
+            "line-height": "1.174000066202892",
+            "typeface": "Raleway"
+          },
+          {
+            "id": "IC_Bookmark",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "260.41461181640625"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "18.53466796875"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "31.50921630859375"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "31.50927734375"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Ellipse 4",
+              "IC_Bookmark1"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Bathroom",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "143.64508056640625"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "237.24609375"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "97.3079833984375"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "25.94873046875"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "3 Bathroom",
+              "IC_Bathroom"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Bedroom",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "18.53485107421875"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "237.24609375"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "95.45449829101562"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "25.94873046875"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "3 Bedroom",
+              "IC_Bedroom"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Rectangle 13",
+            "border-radius": "18.534854888916016",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "310.458740234375"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "281.7294921875"
+              }
+            }
+          },
+          {
+            "id": "webaliser-_TPTXZd9mOo-unsplash 1",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "403.133056640625"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "307.6787109375"
+              }
+            },
+            "image-content": "webaliser_tptxzd9m_oo_unsplash_1.jpeg",
+            "scale": "cover"
+          },
+          {
+            "id": "Ellipse 3",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "31.509246826171875"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "31.50927734375"
+              }
+            },
+            "vector-content": "ellipse_3.svg"
+          },
+          {
+            "id": "IC_Back1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "4.633697509765625"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "4.6337890625"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "22.2418212890625"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "22.24169921875"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Vector",
+              "Vector1"
+            ]
+          },
+          {
+            "id": "Vector",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            }
+          },
+          {
+            "id": "Vector1",
+            "margin": {
+              "left": "7.4139404296875",
+              "top": "4.63330078125",
+              "right": "7.4139404296875",
+              "bottom": "5.47607421875"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "vector.svg"
+          },
+          {
+            "id": "Ellipse 4",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "31.50921630859375"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "31.50927734375"
+              }
+            },
+            "vector-content": "ellipse_4.svg"
+          },
+          {
+            "id": "IC_Bookmark1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "4.63385009765625"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "4.6337890625"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "22.2418212890625"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "22.24169921875"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Vector2",
+              "Vector3"
+            ]
+          },
+          {
+            "id": "Vector2",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            }
+          },
+          {
+            "id": "Vector3",
+            "margin": {
+              "left": "5.56036376953125",
+              "top": "3.70654296875",
+              "right": "5.560546875",
+              "bottom": "4.1865234375"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "vector1.svg"
+          },
+          {
+            "id": "3 Bathroom",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "37.0697021484375"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "6.4873046875"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "60.23828125"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "12.974609375"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.8313725490196079"
+            },
+            "text-content": "3 Bathroom",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "11.120912551879883",
+            "line-height": "1.174000066202892",
+            "typeface": "Raleway"
+          },
+          {
+            "id": "IC_Bathroom",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "25.94879150390625"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "25.94873046875"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "IC_Bath",
+              "Rectangle 20"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "IC_Bath",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "1.8541259765625"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "1.85400390625"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "22.2418212890625"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "22.24169921875"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Group"
+            ]
+          },
+          {
+            "id": "Rectangle 20",
+            "border-radius": "4.633713722229004",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "25.94879150390625"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "25.94873046875"
+              }
+            },
+            "vector-content": "rectangle_20.svg"
+          },
+          {
+            "id": "Group",
+            "margin": {
+              "left": "3.706390380859375",
+              "top": "3.70654296875",
+              "right": "3.707550048828125",
+              "bottom": "4.23486328125"
+            },
+            "is-structured": "false",
+            "children": [
+              "Group 1"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Group 1",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "14.827880859375"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "14.30029296875"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Vector4",
+              "Vector5",
+              "Vector6",
+              "Vector7",
+              "Vector8"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Vector4",
+            "margin": {
+              "left": "5.58868408203125",
+              "top": "3.46875",
+              "right": "8.137847900390625",
+              "bottom": "9.73046875"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "vector2.svg"
+          },
+          {
+            "id": "Vector5",
+            "margin": {
+              "left": "7.442230224609375",
+              "top": "3.70068359375",
+              "right": "6.2843017578125",
+              "bottom": "9.49853515625"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "vector3.svg"
+          },
+          {
+            "id": "Vector6",
+            "margin": {
+              "left": "5.58868408203125",
+              "top": "5.322265625",
+              "right": "8.137847900390625",
+              "bottom": "7.876953125"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "vector4.svg"
+          },
+          {
+            "id": "Vector7",
+            "margin": {
+              "bottom": "6.02392578125"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "vector5.svg"
+          },
+          {
+            "id": "Vector8",
+            "margin": {
+              "left": "1.185455322265625",
+              "top": "9.14501953125",
+              "right": "1.18560791015625"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "vector6.svg"
+          },
+          {
+            "id": "3 Bedroom",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "37.069671630859375"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "6.4873046875"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "58.384796142578125"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "12.974609375"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.8313725490196079"
+            },
+            "text-content": "3 Bedroom",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "11.120912551879883",
+            "line-height": "1.174000066202892",
+            "typeface": "Raleway"
+          },
+          {
+            "id": "IC_Bedroom",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "25.94879150390625"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "25.94873046875"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Rectangle 19",
+              "IC_Bed"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Rectangle 19",
+            "border-radius": "4.633713722229004",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "25.94879150390625"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "25.94873046875"
+              }
+            },
+            "vector-content": "rectangle_19.svg"
+          },
+          {
+            "id": "IC_Bed",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "1.8541259765625"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "1.85400390625"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "22.2418212890625"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "22.24169921875"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Vector9",
+              "Vector10"
+            ]
+          },
+          {
+            "id": "Vector9",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            }
+          },
+          {
+            "id": "Vector10",
+            "margin": {
+              "left": "3.706298828125",
+              "top": "5.56005859375",
+              "right": "3.7076416015625",
+              "bottom": "4.8193359375"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "vector7.svg"
+          },
+          {
+            "id": "Frame 2",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "Selected Property",
+              "Frame 1"
+            ],
+            "item-spacing": "3.467811107635498",
+            "clip-content": "false"
+          },
+          {
+            "id": "Selected Property",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Selected Property",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "10.403432846069336",
+            "letter-spacing": "0.10403432846069337",
+            "line-height": "1.259999963332322",
+            "typeface": "Sora"
+          },
+          {
+            "id": "Frame 1",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "171 West Street Suite 14",
+              "Iconly/Light/Arrow - Down 2"
+            ],
+            "item-spacing": "3.467811107635498",
+            "clip-content": "false"
+          },
+          {
+            "id": "171 West Street Suite 14",
+            "font-weight": "600.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "171 West Street Suite 14",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "12.13733959197998",
+            "line-height": "1.2600000015714719",
+            "typeface": "Sora"
+          },
+          {
+            "id": "Iconly/Light/Arrow - Down 2",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "12.1373291015625"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "12.13720703125"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Iconly/Light/Arrow - Down 3"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Iconly/Light/Arrow - Down 3",
+            "is-structured": "false",
+            "children": [
+              "Arrow - Down 2"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Arrow - Down 2",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "2.52862548828125"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "4.298828125"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "7.08013916015625"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "3.5400390625"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Stroke 1"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Stroke 1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "-0.65020751953125"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "-0.650390625"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "stroke_1.svg"
+          },
+          {
+            "id": "Iconly/Light/Arrow - Left 2",
+            "is-structured": "false",
+            "children": [
+              "Arrow - Left 2"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Arrow - Left 2",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "4.33476400375366"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "7.369098663330078"
+              }
+            },
+            "relative-transform": [
+              [
+                "-1.8369701465288538e-16",
+                "-1.0",
+                "0.0"
+              ],
+              [
+                "1.0",
+                "-1.8369701465288538e-16",
+                "0.0"
+              ]
+            ],
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "12.137338638305664"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "6.068669319152832"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Stroke 2"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Stroke 2",
+            "margin": {
+              "right": "6.068674087524414"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "-0.65020751953125"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "-0.650390625"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "stroke_2.svg"
+          },
+          {
+            "id": "Monthly",
+            "color": {
+              "alpha": "1.0",
+              "hue": "20.000000000000046",
+              "saturation": "0.06382978723404262",
+              "value": "0.1843137254901961"
+            },
+            "text-content": "Monthly",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "12.13733959197998",
+            "line-height": "1.64",
+            "typeface": "Sora"
+          },
+          {
+            "id": "Quarterly",
+            "color": {},
+            "text-content": "Quarterly",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "12.13733959197998",
+            "line-height": "1.64",
+            "typeface": "Sora"
+          },
+          {
+            "id": "YTD",
+            "color": {
+              "alpha": "1.0",
+              "hue": "20.000000000000046",
+              "saturation": "0.06382978723404262",
+              "value": "0.1843137254901961"
+            },
+            "text-content": "YTD",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "12.13733959197998",
+            "line-height": "1.64",
+            "typeface": "Sora"
+          },
+          {
+            "id": "Property Listing & Tenant Onboarding1",
+            "margin": {
+              "left": "36.0",
+              "right": "37.33905029296875",
+              "bottom": "0.2060546875"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "View Complete Analytics",
+            "overflow": "visible",
+            "text-size": "12.137338638305664",
+            "letter-spacing": "-0.20806866884231567",
+            "line-height": "1.5000000785735939",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Shadow1",
+            "border-radius": "17.33905601501465",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "-27.74249267578125"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "-26.068359375"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "268.75537109375"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "66.81494140625"
+              }
+            },
+            "vector-content": "shadow1.svg"
+          },
+          {
+            "id": "Total Asset",
+            "border-radius": "17.33905601501465",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "306.9012451171875"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "71.99853515625"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Increasement",
+              "Group 36",
+              "Group 37"
+            ],
+            "fills": [
+              {
+                "color": {},
+                "opacity": "1.0",
+                "fill-type": "lineargradient",
+                "blend-mode": "normal",
+                "color-stops": [
+                  {
+                    "color": {
+                      "alpha": "1.0",
+                      "hue": "0.0",
+                      "saturation": "0.0",
+                      "value": "0.0"
+                    },
+                    "color-stop-position": "0.0"
+                  },
+                  {
+                    "color": {
+                      "alpha": "1.0",
+                      "hue": "242.35294117647058",
+                      "saturation": "0.7285714285714285",
+                      "value": "0.27450980392156865"
+                    },
+                    "color-stop-position": "1.0"
+                  }
+                ],
+                "gradient-handle-positions": [
+                  {
+                    "x": "0.08",
+                    "y": "-0.11"
+                  },
+                  {
+                    "x": "2.2",
+                    "y": "1.02"
+                  },
+                  {
+                    "x": "-0.2",
+                    "y": "0.42"
+                  }
+                ]
+              }
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Increasement",
+            "presence": "false",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "189.8626708984375"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "61.5537109375"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "34.6781005859375"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "13.87109375"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "bxs-upvote 1",
+              "+2%"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Group 36",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "29.476409912109375"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "12.13720703125"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "247.94851684570312"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "48.685546875"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Asset Label",
+              "Title Label"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Group 37",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "180.326171875"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "20.806640625"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "97.46405029296875"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "31.1884765625"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Rectangle 3",
+              "Value increase"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "bxs-upvote 1",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "13.8712158203125"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "13.87109375"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Vector11"
+            ]
+          },
+          {
+            "id": "+2%",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "16.18310546875"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "18.4949951171875"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "13.87109375"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "+2%",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": "9.247496604919434",
+            "line-height": "1.4999999484360815",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Vector11",
+            "margin": {
+              "left": "1.73419189453125",
+              "top": "1.1669921875",
+              "right": "1.73406982421875",
+              "bottom": "1.15576171875"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            }
+          },
+          {
+            "id": "Asset Label",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "19.056640625"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "116.1771240234375"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "29.62890625"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "CA$2139",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "20.806865692138672",
+            "line-height": "1.5",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Title Label",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "247.94851684570312"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "14.814453125"
+              }
+            },
+            "font-weight": "500.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Repairs",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "13.871244430541992",
+            "line-height": "1.4999999312481065",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Rectangle 3",
+            "border-radius": "13.004291534423828",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "97.46405029296875"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "31.1884765625"
+              }
+            },
+            "vector-content": "rectangle_3.svg"
+          },
+          {
+            "id": "Value increase",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "26.02484130859375"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "8.947265625"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "45.08154296875"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "13.87158203125"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "bxs-upvote 2",
+              "-12%"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "bxs-upvote 2",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "-0.0000019073486319243216"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "-9.536743172944284e-7"
+              }
+            },
+            "relative-transform": [
+              [
+                "-1.0",
+                "1.2246468525851679e-16",
+                "0.0"
+              ],
+              [
+                "-1.2246468525851679e-16",
+                "-1.0",
+                "0.0"
+              ]
+            ],
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "13.871244430541992"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "13.871245384216309"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Vector12"
+            ]
+          },
+          {
+            "id": "-12%",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "16.47210693359375"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "0.00048828125"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "28.60943603515625"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "13.87109375"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "122.28260869565217",
+              "saturation": "1.0",
+              "value": "0.7215686274509804"
+            },
+            "text-content": "-12%",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": "9.247496604919434",
+            "line-height": "1.4999999484360815",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Vector12",
+            "margin": {
+              "left": "1.734130859375",
+              "top": "1.15673828125",
+              "right": "1.7341594696044922",
+              "bottom": "1.1661672592163086"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "vector8.svg"
+          },
+          {
+            "id": "Shadow2",
+            "border-radius": "17.33905601501465",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "-27.74249267578125"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "-26.068359375"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "268.75537109375"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "66.81494140625"
+              }
+            },
+            "vector-content": "shadow2.svg"
+          },
+          {
+            "id": "Total Asset1",
+            "border-radius": "17.33905601501465",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "306.9012451171875"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "71.99853515625"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Increasement1",
+              "Group 38",
+              "Group 39"
+            ],
+            "fills": [
+              {
+                "color": {},
+                "opacity": "1.0",
+                "fill-type": "lineargradient",
+                "blend-mode": "normal",
+                "color-stops": [
+                  {
+                    "color": {
+                      "alpha": "1.0",
+                      "hue": "0.0",
+                      "saturation": "0.0",
+                      "value": "0.0"
+                    },
+                    "color-stop-position": "0.0"
+                  },
+                  {
+                    "color": {
+                      "alpha": "1.0",
+                      "hue": "242.35294117647058",
+                      "saturation": "0.7285714285714285",
+                      "value": "0.27450980392156865"
+                    },
+                    "color-stop-position": "1.0"
+                  }
+                ],
+                "gradient-handle-positions": [
+                  {
+                    "x": "0.08",
+                    "y": "-0.11"
+                  },
+                  {
+                    "x": "2.2",
+                    "y": "1.02"
+                  },
+                  {
+                    "x": "-0.2",
+                    "y": "0.42"
+                  }
+                ]
+              }
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Increasement1",
+            "presence": "false",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "189.8626708984375"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "61.5537109375"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "34.6781005859375"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "13.87109375"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "bxs-upvote 3",
+              "+2%1"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Group 38",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "29.47637939453125"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "12.1376953125"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "247.948486328125"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "48.685546875"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Asset Label1",
+              "Title Label1"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Group 39",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "180.326171875"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "20.80712890625"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "97.46405029296875"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "31.1884765625"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Rectangle 4",
+              "Value increase1"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "bxs-upvote 3",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "13.8712158203125"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "13.87109375"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Vector13"
+            ]
+          },
+          {
+            "id": "+2%1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "16.18310546875"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "18.4949951171875"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "13.87109375"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "+2%",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": "9.247496604919434",
+            "line-height": "1.4999999484360815",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Vector13",
+            "margin": {
+              "left": "1.73419189453125",
+              "top": "1.1669921875",
+              "right": "1.73406982421875",
+              "bottom": "1.15576171875"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            }
+          },
+          {
+            "id": "Asset Label1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "19.056640625"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "116.1771240234375"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "29.62890625"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "CA$4250",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "20.806865692138672",
+            "line-height": "1.5",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Title Label1",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "247.948486328125"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "14.814453125"
+              }
+            },
+            "font-weight": "500.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Tax",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "13.871244430541992",
+            "line-height": "1.4999999312481065",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Rectangle 4",
+            "border-radius": "13.004291534423828",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "97.46405029296875"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "31.1884765625"
+              }
+            },
+            "vector-content": "rectangle_4.svg"
+          },
+          {
+            "id": "Value increase1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "26.02484130859375"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "8.94775390625"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "45.08154296875"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "13.87109375"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "bxs-upvote 4",
+              "+0.2%"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "bxs-upvote 4",
+            "relative-transform": [
+              [
+                "1.0",
+                "-5.3437816372905846e-24",
+                "0.0"
+              ],
+              [
+                "5.3437816372905846e-24",
+                "1.0",
+                "0.0"
+              ]
+            ],
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "13.871244430541992"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "13.871245384216309"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Vector14"
+            ]
+          },
+          {
+            "id": "+0.2%",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "16.47210693359375"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "28.60943603515625"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "13.87109375"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "1.0",
+              "value": "0.7215686274509804"
+            },
+            "text-content": "+0.2%",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": "9.247496604919434",
+            "line-height": "1.4999999484360815",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Vector14",
+            "margin": {
+              "left": "1.7341822385787964",
+              "top": "1.1667555570602417",
+              "right": "1.7340985536575317",
+              "bottom": "1.15595543384552"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "vector9.svg"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "A4_SC3",
+      "size": {
+        "width": 393.0,
+        "height": 808.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

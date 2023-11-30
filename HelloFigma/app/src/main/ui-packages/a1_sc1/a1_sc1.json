@@ -1,0 +1,933 @@
+{
+  "name": "a1_sc1",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "qKmWBlqDJZ3ypCEU21sTot",
+    "node": "209:736",
+    "version": "4719784214",
+    "component-id": "b5dd7910b9474b239ac328529094a12034c184d3"
+  },
+  "default": "A1_SC1",
+  "documentation": "Activity 1 Shipment",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "group",
+        "id": "Group 35"
+      },
+      {
+        "type": "group",
+        "id": "Group 371"
+      },
+      {
+        "type": "group",
+        "id": "Group 377"
+      },
+      {
+        "type": "group",
+        "id": "Frame 3195"
+      },
+      {
+        "type": "group",
+        "id": "Group 378"
+      },
+      {
+        "type": "group",
+        "id": "Group 380"
+      },
+      {
+        "type": "group",
+        "id": "Group 379"
+      },
+      {
+        "type": "group",
+        "id": "Status Bar / Time / 01 Default"
+      },
+      {
+        "type": "group",
+        "id": "Battery"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 471"
+      },
+      {
+        "type": "text",
+        "id": "09:41"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle"
+      },
+      {
+        "type": "vector",
+        "id": "Combined Shape"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle1"
+      },
+      {
+        "type": "group",
+        "id": "Group 370"
+      },
+      {
+        "type": "group",
+        "id": "Group 369"
+      },
+      {
+        "type": "group",
+        "id": "Group 368"
+      },
+      {
+        "type": "text",
+        "id": "Hello Jonathan"
+      },
+      {
+        "type": "text",
+        "id": "Hello Jonathan1"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 1721"
+      },
+      {
+        "type": "text",
+        "id": "Maintenance & Repair"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 1722"
+      },
+      {
+        "type": "text",
+        "id": "Automated Rent Collection & Accounting"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 1723"
+      },
+      {
+        "type": "text",
+        "id": "Financial Analytics & Reporting"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 1724"
+      },
+      {
+        "type": "group",
+        "id": "Property Listing & Tenant Onboarding"
+      },
+      {
+        "type": "text",
+        "id": "Property Listing & Tenant Onboarding1"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 1725"
+      },
+      {
+        "type": "text",
+        "id": "Collaborative Access Dashboard"
+      }
+    ],
+    "modes": {
+      "A1_SC1": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "Group 35",
+              "Group 371",
+              "Group 377",
+              "Frame 3195",
+              "Group 378",
+              "Group 380",
+              "Group 379"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            }
+          },
+          {
+            "id": "Group 35",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "-20.442626953125"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "397.39483642578125"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "828.442626953125"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Status Bar / Time / 01 Default",
+              "Battery",
+              "Rectangle 471"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Group 371",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "58.5926513671875"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "146.18017578125"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "275.56854248046875"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "64.085693359375"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Group 370"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Group 377",
+            "border-radius": "72.32528686523438",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "58.5926513671875"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "237.7313232421875"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "277.3995666503906"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "39.366943359375"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Rectangle 1721",
+              "Maintenance & Repair"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Frame 3195",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "58.5926513671875"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "297.239501953125"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "277.3995666503906"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "39.366943359375"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Rectangle 1722",
+              "Automated Rent Collection & Accounting"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Group 378",
+            "border-radius": "72.32528686523438",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "58.5926513671875"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "416.255859375"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "277.3995666503906"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "39.366943359375"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Rectangle 1723",
+              "Financial Analytics & Reporting"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Group 380",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "58.5926513671875"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "356.74755859375"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "277.3995666503906"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "39.366943359375"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Rectangle 1724",
+              "Property Listing & Tenant Onboarding"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Group 379",
+            "border-radius": "72.32528686523438",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "58.5926513671875"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "475.763916015625"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "277.3995666503906"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "39.366943359375"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Rectangle 1725",
+              "Collaborative Access Dashboard"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Status Bar / Time / 01 Default",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "16.4791259765625"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "13.8568115234375"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "49.43756103515625"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "20.7852783203125"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "09:41"
+            ]
+          },
+          {
+            "id": "Battery",
+            "margin": {
+              "left": "375.422607421875",
+              "top": "18.8055419921875",
+              "right": "0.0000152587890625",
+              "bottom": "798.74951171875"
+            },
+            "is-structured": "false",
+            "children": [
+              "Rectangle",
+              "Combined Shape",
+              "Rectangle1"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Rectangle 471",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "20.442626953125"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "393.6693420410156"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "828.442626953125"
+              }
+            },
+            "vector-content": "rectangle_471.svg"
+          },
+          {
+            "id": "09:41",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "1.8310546875"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "49.43756103515625"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "15.563720703125"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "221.7391304347826",
+              "saturation": "0.575",
+              "value": "0.1568627450980392"
+            },
+            "text-content": "09:41",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "12.817140579223633",
+            "letter-spacing": "-0.21972240507602692",
+            "line-height": "1.500000074406168",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Rectangle",
+            "border-radius": "2.4413602352142334",
+            "alignment": {
+              "horizontal": {
+                "attachment": "end",
+                "offset": "-2.102569580078125"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "1.6370849609375"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "19.869644165039062"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "10.8875732421875"
+              }
+            },
+            "vector-content": "rectangle.svg"
+          },
+          {
+            "id": "Combined Shape",
+            "alignment": {
+              "horizontal": {
+                "attachment": "end",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "3.5225830078125"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "1.199432373046875"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "3.8426513671875"
+              }
+            },
+            "vector-content": "combined_shape.svg"
+          },
+          {
+            "id": "Rectangle1",
+            "border-radius": "1.2206801176071167",
+            "alignment": {
+              "horizontal": {
+                "attachment": "end",
+                "offset": "-3.908935546875"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "1.9215087890625"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "16.256973266601562"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "7.044921875"
+              }
+            },
+            "vector-content": "rectangle1.svg"
+          },
+          {
+            "id": "Group 370",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "275.56854248046875"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "64.085693359375"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Group 369"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Group 369",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "275.56854248046875"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "64.085693359375"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Group 368",
+              "Hello Jonathan"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Group 368",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "275.56854248046875"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "26.5498046875"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Hello Jonathan1"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Hello Jonathan",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "37.535888671875"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "275.56854248046875"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "26.5498046875"
+              }
+            },
+            "font-weight": "300.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "What would you like to view?\n",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "13.732649803161621",
+            "letter-spacing": "-0.2197224199771881",
+            "line-height": "1.4999999652771194",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Hello Jonathan1",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "275.56854248046875"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "26.5498046875"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Hello Jonathan,\n",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "18.31020164489746",
+            "letter-spacing": "-0.2197224199771881",
+            "line-height": "1.4999999479156847",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Rectangle 1721",
+            "border-radius": "72.32528686523438",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "277.3995666503906"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "39.366943359375"
+              }
+            },
+            "vector-content": "rectangle_1721.svg"
+          },
+          {
+            "id": "Maintenance & Repair",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "10.986083984375"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "277.3995666503906"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Maintenance & Repair",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "12.81714153289795",
+            "letter-spacing": "-0.2197224199771881",
+            "line-height": "1.499999962796919",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Rectangle 1722",
+            "border-radius": "72.32528686523438",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "277.3995666503906"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "39.366943359375"
+              }
+            },
+            "vector-content": "rectangle_1722.svg"
+          },
+          {
+            "id": "Automated Rent Collection & Accounting",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "10.070556640625"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "275.56854248046875"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "18.3101806640625"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Automated Rent Collection & Accounting",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "12.81714153289795",
+            "letter-spacing": "-0.2197224199771881",
+            "line-height": "1.499999962796919",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Rectangle 1723",
+            "border-radius": "72.32528686523438",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "277.3995666503906"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "39.366943359375"
+              }
+            },
+            "vector-content": "rectangle_1723.svg"
+          },
+          {
+            "id": "Financial Analytics & Reporting",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "49.437530517578125"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "10.986083984375"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Financial Analytics & Reporting",
+            "overflow": "visible",
+            "text-size": "12.81714153289795",
+            "letter-spacing": "-0.2197224199771881",
+            "line-height": "1.499999962796919",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Rectangle 1724",
+            "border-radius": "72.32528686523438",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "277.3995666503906"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "39.366943359375"
+              }
+            },
+            "vector-content": "rectangle_1724.svg"
+          },
+          {
+            "id": "Property Listing & Tenant Onboarding",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "24.71875"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "10.0703125"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "231.6240234375"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "19.225830078125"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Property Listing & Tenant Onboarding1"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Property Listing & Tenant Onboarding1",
+            "margin": {
+              "right": "0.6240234375",
+              "bottom": "0.225830078125"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Property Listing & Tenant Onboarding",
+            "overflow": "visible",
+            "text-size": "12.817140579223633",
+            "letter-spacing": "-0.21972240507602692",
+            "line-height": "1.500000074406168",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Rectangle 1725",
+            "border-radius": "72.32528686523438",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "277.3995666503906"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "39.366943359375"
+              }
+            },
+            "vector-content": "rectangle_1725.svg"
+          },
+          {
+            "id": "Collaborative Access Dashboard",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "42.11346435546875"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "10.0703125"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Collaborative Access Dashboard",
+            "overflow": "visible",
+            "text-size": "12.81714153289795",
+            "letter-spacing": "-0.2197224199771881",
+            "line-height": "1.499999962796919",
+            "typeface": "Poppins"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "A1_SC1",
+      "size": {
+        "width": 393.0,
+        "height": 808.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

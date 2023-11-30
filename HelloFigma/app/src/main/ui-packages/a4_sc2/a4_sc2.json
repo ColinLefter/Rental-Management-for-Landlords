@@ -1,0 +1,1561 @@
+{
+  "name": "a4_sc2",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "qKmWBlqDJZ3ypCEU21sTot",
+    "node": "209:789",
+    "version": "4719784214",
+    "component-id": "2f061b2345c5a569ace10c4f20bf31e26c626235"
+  },
+  "default": "A4_SC2",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "text",
+        "id": "Number Label"
+      },
+      {
+        "type": "group",
+        "id": "Group 2"
+      },
+      {
+        "type": "group",
+        "id": "Frame 3675"
+      },
+      {
+        "type": "group",
+        "id": "Group 33692"
+      },
+      {
+        "type": "group",
+        "id": "contact"
+      },
+      {
+        "type": "vector",
+        "id": "Vector 13"
+      },
+      {
+        "type": "group",
+        "id": "funding"
+      },
+      {
+        "type": "vector",
+        "id": "Vector 16"
+      },
+      {
+        "type": "group",
+        "id": "Group 33693"
+      },
+      {
+        "type": "group",
+        "id": "Value increase"
+      },
+      {
+        "type": "text",
+        "id": "Number Label1"
+      },
+      {
+        "type": "text",
+        "id": "Title Label"
+      },
+      {
+        "type": "group",
+        "id": "bxs-upvote 1"
+      },
+      {
+        "type": "text",
+        "id": "+83%"
+      },
+      {
+        "type": "vector",
+        "id": "Vector"
+      },
+      {
+        "type": "group",
+        "id": "Top navigation"
+      },
+      {
+        "type": "group",
+        "id": "Huge-icon"
+      },
+      {
+        "type": "group",
+        "id": "Menu / More_Vertical"
+      },
+      {
+        "type": "group",
+        "id": "notification"
+      },
+      {
+        "type": "vector",
+        "id": "Vector1"
+      },
+      {
+        "type": "vector",
+        "id": "Vector2"
+      },
+      {
+        "type": "vector",
+        "id": "Vector3"
+      },
+      {
+        "type": "group",
+        "id": "Group 32"
+      },
+      {
+        "type": "group",
+        "id": "Group 33"
+      },
+      {
+        "type": "group",
+        "id": "Group 1"
+      },
+      {
+        "type": "group",
+        "id": "Week"
+      },
+      {
+        "type": "group",
+        "id": "Statistics"
+      },
+      {
+        "type": "group",
+        "id": "Statistics1"
+      },
+      {
+        "type": "vector",
+        "id": "Vector 410"
+      },
+      {
+        "type": "vector",
+        "id": "Vector 411"
+      },
+      {
+        "type": "vector",
+        "id": "Vector4"
+      },
+      {
+        "type": "text",
+        "id": "2017"
+      },
+      {
+        "type": "text",
+        "id": "2018"
+      },
+      {
+        "type": "text",
+        "id": "2019"
+      },
+      {
+        "type": "text",
+        "id": "2020"
+      },
+      {
+        "type": "text",
+        "id": "2021"
+      },
+      {
+        "type": "text",
+        "id": "2022"
+      },
+      {
+        "type": "text",
+        "id": "2023"
+      },
+      {
+        "type": "group",
+        "id": "Frame 27"
+      },
+      {
+        "type": "group",
+        "id": "Frame 26"
+      },
+      {
+        "type": "group",
+        "id": "Frame 25"
+      },
+      {
+        "type": "text",
+        "id": "Rental Income"
+      },
+      {
+        "type": "text",
+        "id": "Rental Income1"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 49"
+      },
+      {
+        "type": "text",
+        "id": "Analytics"
+      },
+      {
+        "type": "group",
+        "id": "Group 33690"
+      },
+      {
+        "type": "group",
+        "id": "Group 33688"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 50"
+      },
+      {
+        "type": "text",
+        "id": "Expenses"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 51"
+      },
+      {
+        "type": "text",
+        "id": "Summary of Accounts"
+      },
+      {
+        "type": "vector",
+        "id": "Vector 15"
+      }
+    ],
+    "modes": {
+      "A4_SC2": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "Number Label",
+              "Group 2",
+              "Frame 3675",
+              "Group 33692",
+              "contact",
+              "Vector 13",
+              "funding",
+              "Vector 16",
+              "Group 33693"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            }
+          },
+          {
+            "id": "Number Label",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "35.39483642578125"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "130.49365234375"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Overview",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "20.806865692138672",
+            "line-height": "1.5",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Group 2",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "35.39483642578125"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "49.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "275.69097900390625"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "65.40771484375"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Value increase",
+              "Number Label1",
+              "Title Label"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Frame 3675",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "299.8154602050781"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "49.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "Top navigation"
+            ],
+            "item-spacing": "106.63519287109375",
+            "clip-content": "false"
+          },
+          {
+            "id": "Group 33692",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "36.26178741455078"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "173.841796875"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "320.83258056640625"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "324.240234375"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Group 32",
+              "Group 33"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "contact",
+            "margin": {
+              "left": "56.958831787109375",
+              "top": "520.62255859375",
+              "right": "314.10628509521484",
+              "bottom": "266.57080078125"
+            },
+            "is-structured": "false",
+            "children": [
+              "Rectangle 49",
+              "Analytics"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Vector 13",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "311.9527709215586"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "527.5580111686799"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "12.13733959197998"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "5.201716423034668"
+              }
+            },
+            "vector-content": "vector_13.svg"
+          },
+          {
+            "id": "funding",
+            "margin": {
+              "left": "56.958831787109375",
+              "top": "589.97900390625",
+              "right": "314.10628509521484",
+              "bottom": "197.21435546875"
+            },
+            "is-structured": "false",
+            "children": [
+              "Group 33690"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Vector 16",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "311.9527709215586"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "596.9139681999299"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "12.13733959197998"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "5.201716423034668"
+              }
+            },
+            "vector-content": "vector_16.svg"
+          },
+          {
+            "id": "Group 33693",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "41.4635009765625"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "643.72998046875"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "306.9012756347656"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "52.01708984375"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Rectangle 51",
+              "Summary of Accounts",
+              "Vector 15"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Value increase",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "175.99139404296875"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "37.279296875"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "45.08154296875"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "13.87109375"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "bxs-upvote 1",
+              "+83%"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Number Label1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "0.00000762939453125"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "23.40771484375"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "CA$895,000",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "27.742488861083984",
+            "line-height": "1.4999999312481065",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Title Label",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "275.69097900390625"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.7019607843137254"
+            },
+            "text-content": "Your total asset portfolio",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "13.871244430541992",
+            "line-height": "1.4999999312481065",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "bxs-upvote 1",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "13.871246337890625"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "13.87109375"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Vector"
+            ]
+          },
+          {
+            "id": "+83%",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "16.47211456298828"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "28.60944366455078"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "13.87109375"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "122.28260869565217",
+              "saturation": "1.0",
+              "value": "0.7215686274509804"
+            },
+            "text-content": "+83%",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": "9.247496604919434",
+            "line-height": "1.4999999484360815",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Vector",
+            "margin": {
+              "left": "1.7341995239257812",
+              "top": "1.1669921875",
+              "right": "1.7340850830078125",
+              "bottom": "1.15576171875"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "vector.svg"
+          },
+          {
+            "id": "Top navigation",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "Huge-icon",
+              "Menu / More_Vertical"
+            ],
+            "item-spacing": "8.669528007507324",
+            "clip-content": "false"
+          },
+          {
+            "id": "Huge-icon",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "20.806869506835938"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "20.806640625"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "notification"
+            ]
+          },
+          {
+            "id": "Menu / More_Vertical",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "20.806869506835938"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "20.806640625"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Vector1",
+              "Vector2",
+              "Vector3"
+            ]
+          },
+          {
+            "id": "notification",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "3.4677886962890625"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "1.73388671875"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "14.738204956054688"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "17.33935546875"
+              }
+            },
+            "is-structured": "false",
+            "clip-content": "false"
+          },
+          {
+            "id": "Vector1",
+            "margin": {
+              "left": "9.536468505859375",
+              "top": "14.73828125",
+              "right": "9.5364990234375",
+              "bottom": "4.33447265625"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "-0.8669586181640625"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "-0.8671875"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "vector1.svg"
+          },
+          {
+            "id": "Vector2",
+            "margin": {
+              "left": "9.536468505859375",
+              "top": "9.537109375",
+              "right": "9.5364990234375",
+              "bottom": "9.53564453125"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "-0.8669586181640625"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "-0.8671875"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "vector2.svg"
+          },
+          {
+            "id": "Vector3",
+            "margin": {
+              "left": "9.536468505859375",
+              "top": "4.3349609375",
+              "right": "9.5364990234375",
+              "bottom": "14.73779296875"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "-0.8669586181640625"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "-0.8671875"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "vector3.svg"
+          },
+          {
+            "id": "Group 32",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "13.004280090332031"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "62.87451171875"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "307.82830810546875"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "261.36572265625"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Group 1",
+              "Week"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Group 33",
+            "border-radius": "12.13733959197998",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "311.2360534667969"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "45.27490234375"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Frame 27"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Group 1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "6.340545654296875"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "301.4877624511719"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "234.9443359375"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Statistics"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Week",
+            "padding": {
+              "right": "6.935622215270996"
+            },
+            "border-radius": "26.008583068847656",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "209.34814453125"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "303.4334716796875"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "52.01708984375"
+              }
+            },
+            "stroke-width": "0.8669527769088745",
+            "arrangement": "row",
+            "children": [
+              "2017",
+              "2018",
+              "2019",
+              "2020",
+              "2021",
+              "2022",
+              "2023"
+            ],
+            "item-spacing": "19.072961807250977",
+            "clip-content": "false"
+          },
+          {
+            "id": "Statistics",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "234.9443359375"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Statistics1"
+            ]
+          },
+          {
+            "id": "Statistics1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "-12.409217834472656"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "11.68310546875"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "350.2489318847656"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "267.021484375"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Vector 410",
+              "Vector 411",
+              "Vector4"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Vector 410",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "12.409217834472656"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "-0.8671875"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "350.2489318847656"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "267.021484375"
+              }
+            },
+            "vector-content": "vector_410.svg"
+          },
+          {
+            "id": "Vector 411",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "350.2489318847656"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "267.021484375"
+              }
+            }
+          },
+          {
+            "id": "Vector4",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "69.78969955444336"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "-0.8671875"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "197.19500732421875"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "225.40966796875"
+              }
+            },
+            "vector-content": "vector4.svg"
+          },
+          {
+            "id": "2017",
+            "color": {
+              "alpha": "0.6980392156862745",
+              "hue": "242.72727272727275",
+              "saturation": "0.55",
+              "value": "0.3137254901960784"
+            },
+            "text-content": "2017",
+            "overflow": "visible",
+            "text-size": "11.270386695861816",
+            "letter-spacing": "0.30343344807624817",
+            "line-height": "2.1538462829589844",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "2018",
+            "color": {
+              "alpha": "0.6980392156862745",
+              "hue": "242.72727272727275",
+              "saturation": "0.55",
+              "value": "0.3137254901960784"
+            },
+            "text-content": "2018",
+            "overflow": "visible",
+            "text-size": "11.270386695861816",
+            "letter-spacing": "0.30343344807624817",
+            "line-height": "2.1538462829589844",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "2019",
+            "color": {
+              "alpha": "0.6980392156862745",
+              "hue": "242.72727272727275",
+              "saturation": "0.55",
+              "value": "0.3137254901960784"
+            },
+            "text-content": "2019",
+            "overflow": "visible",
+            "text-size": "11.270386695861816",
+            "letter-spacing": "0.30343344807624817",
+            "line-height": "2.1538462829589844",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "2020",
+            "color": {
+              "alpha": "0.6980392156862745",
+              "hue": "242.72727272727275",
+              "saturation": "0.55",
+              "value": "0.3137254901960784"
+            },
+            "text-content": "2020",
+            "overflow": "visible",
+            "text-size": "11.270386695861816",
+            "letter-spacing": "0.30343344807624817",
+            "line-height": "2.1538462829589844",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "2021",
+            "color": {
+              "alpha": "0.6980392156862745",
+              "hue": "242.72727272727275",
+              "saturation": "0.55",
+              "value": "0.3137254901960784"
+            },
+            "text-content": "2021",
+            "overflow": "visible",
+            "text-size": "11.270386695861816",
+            "letter-spacing": "0.30343344807624817",
+            "line-height": "2.1538462829589844",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "2022",
+            "color": {
+              "alpha": "0.6980392156862745",
+              "hue": "242.72727272727275",
+              "saturation": "0.55",
+              "value": "0.3137254901960784"
+            },
+            "text-content": "2022",
+            "overflow": "visible",
+            "text-size": "11.270386695861816",
+            "letter-spacing": "0.30343344807624817",
+            "line-height": "2.1538462829589844",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "2023",
+            "font-weight": "700.0",
+            "color": {},
+            "text-content": "2023",
+            "overflow": "visible",
+            "text-size": "11.270386695861816",
+            "letter-spacing": "0.30343344807624817",
+            "line-height": "2.1538462829589844",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Frame 27",
+            "padding": "3.467811107635498",
+            "border-radius": "12.13733959197998",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "311.2360534667969"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "Frame 26",
+              "Frame 25"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.9490196078431372"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "Frame 26",
+            "padding": {
+              "left": "12.13733959197998",
+              "top": "8.669528007507324",
+              "right": "12.13733959197998",
+              "bottom": "8.669528007507324"
+            },
+            "border-radius": "17.33905601501465",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "Rental Income"
+            ],
+            "item-spacing": "8.669528007507324",
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.9490196078431372"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "Frame 25",
+            "padding": {
+              "left": "12.13733959197998",
+              "top": "8.669528007507324",
+              "right": "12.13733959197998",
+              "bottom": "8.669528007507324"
+            },
+            "border-radius": "8.669528007507324",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "Rental Income1"
+            ],
+            "item-spacing": "8.669528007507324",
+            "fills": [
+              {
+                "color": {},
+                "opacity": "1.0",
+                "fill-type": "lineargradient",
+                "blend-mode": "normal",
+                "color-stops": [
+                  {
+                    "color": {
+                      "alpha": "1.0",
+                      "hue": "240.0",
+                      "saturation": "0.7857142857142857",
+                      "value": "0.054901960784313725"
+                    },
+                    "color-stop-position": "0.0"
+                  },
+                  {
+                    "color": {
+                      "alpha": "1.0",
+                      "hue": "0.0",
+                      "saturation": "0.0",
+                      "value": "0.0"
+                    },
+                    "color-stop-position": "1.0"
+                  },
+                  {
+                    "color": {
+                      "alpha": "1.0",
+                      "hue": "0.0",
+                      "saturation": "0.0",
+                      "value": "0.0"
+                    },
+                    "color-stop-position": "1.0"
+                  }
+                ],
+                "gradient-handle-positions": [
+                  {
+                    "x": "0.5",
+                    "y": "0.0"
+                  },
+                  {
+                    "x": "0.5",
+                    "y": "1.0"
+                  },
+                  {
+                    "x": "0.0",
+                    "y": "0.0"
+                  }
+                ]
+              }
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Rental Income",
+            "color": {
+              "alpha": "1.0",
+              "hue": "30.000000000000107",
+              "saturation": "0.043478260869565216",
+              "value": "0.1803921568627451"
+            },
+            "text-content": "Rental Income",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "13.871244430541992",
+            "line-height": "1.4999999312481065",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Rental Income1",
+            "font-weight": "600.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Portfolio Valuation",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "13.871244430541992",
+            "line-height": "1.4999999312481065",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Rectangle 49",
+            "border-radius": "3.467811107635498",
+            "drop-shadow": {
+              "color": {
+                "alpha": "0.0392156862745098",
+                "hue": "0.0",
+                "saturation": "0.0",
+                "value": "0.0"
+              },
+              "blur": "8.669528007507324",
+              "offset-x": "0.0",
+              "offset-y": "4.334764003753662",
+              "spread": "0.0",
+              "blend-mode": "normal"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "-21.673828125"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "-19.93994140625"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "306.9012756347656"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "52.01708984375"
+              }
+            },
+            "vector-content": "rectangle_49.svg"
+          },
+          {
+            "id": "Analytics",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "52.01716995239258"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "3.4677734375"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.2"
+            },
+            "text-content": "Analytics",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "14.738197326660156",
+            "line-height": "0.9411764526367188",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Group 33690",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "-13.004310607910156"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "-15.60546875"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "306.9012756347656"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "52.01708984375"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Group 33688"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Group 33688",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "306.9012756347656"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "52.01708984375"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Rectangle 50",
+              "Expenses"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Rectangle 50",
+            "border-radius": "3.467811107635498",
+            "drop-shadow": {
+              "color": {
+                "alpha": "0.0392156862745098",
+                "hue": "0.0",
+                "saturation": "0.0",
+                "value": "0.0"
+              },
+              "blur": "8.669528007507324",
+              "offset-x": "0.0",
+              "offset-y": "4.334764003753662",
+              "spread": "0.0",
+              "blend-mode": "normal"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "-8.669525146484375"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "-4.3349609375"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "306.9012756347656"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "52.01708984375"
+              }
+            },
+            "vector-content": "rectangle_50.svg"
+          },
+          {
+            "id": "Expenses",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "65.02146911621094"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "19.07275390625"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.2"
+            },
+            "text-content": "Expenses",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "14.738197326660156",
+            "line-height": "0.9411764526367188",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Rectangle 51",
+            "border-radius": "3.467811107635498",
+            "drop-shadow": {
+              "color": {
+                "alpha": "0.0392156862745098",
+                "hue": "0.0",
+                "saturation": "0.0",
+                "value": "0.0"
+              },
+              "blur": "8.669528007507324",
+              "offset-x": "0.0",
+              "offset-y": "4.334764003753662",
+              "spread": "0.0",
+              "blend-mode": "normal"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "-8.669525146484375"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "-4.3349609375"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "306.9012756347656"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "52.01708984375"
+              }
+            },
+            "vector-content": "rectangle_51.svg"
+          },
+          {
+            "id": "Summary of Accounts",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "65.02146911621094"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "19.07275390625"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.2"
+            },
+            "text-content": "Summary of Accounts",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "14.738197326660156",
+            "line-height": "0.9411764526367188",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Vector 15",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "270.4892699449961"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "22.540532225808704"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "12.13733959197998"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "5.201716423034668"
+              }
+            },
+            "vector-content": "vector_15.svg"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "A4_SC2",
+      "size": {
+        "width": 393.0,
+        "height": 808.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

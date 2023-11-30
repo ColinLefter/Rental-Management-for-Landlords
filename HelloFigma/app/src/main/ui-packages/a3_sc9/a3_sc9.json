@@ -1,0 +1,600 @@
+{
+  "name": "a3_sc9",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "qKmWBlqDJZ3ypCEU21sTot",
+    "node": "209:786",
+    "version": "4719784214",
+    "component-id": "59d068c8272ad1a31aa6926a36ffc2e84eff5c10"
+  },
+  "default": "A3_SC9",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "group",
+        "id": "Add card "
+      },
+      {
+        "type": "group",
+        "id": "Icon/arrow-left"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 472"
+      },
+      {
+        "type": "text",
+        "id": "Tenancy Agreement"
+      },
+      {
+        "type": "group",
+        "id": "Dreamsville House"
+      },
+      {
+        "type": "text",
+        "id": "Upload your tenancy agreement"
+      },
+      {
+        "type": "group",
+        "id": "Button/Primary"
+      },
+      {
+        "type": "group",
+        "id": "Image"
+      },
+      {
+        "type": "image",
+        "id": "Rectangle 13"
+      },
+      {
+        "type": "image",
+        "id": "webaliser-_TPTXZd9mOo-unsplash 1"
+      },
+      {
+        "type": "group",
+        "id": "Button/Primary1"
+      },
+      {
+        "type": "text",
+        "id": "Submit"
+      },
+      {
+        "type": "group",
+        "id": "Iconly/Light/Arrow - Left 2"
+      },
+      {
+        "type": "group",
+        "id": "Arrow - Left 2"
+      },
+      {
+        "type": "vector",
+        "id": "Stroke 1"
+      }
+    ],
+    "modes": {
+      "A3_SC9": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "Add card ",
+              "Icon/arrow-left"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            }
+          },
+          {
+            "id": "Add card ",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "35.81751164155628"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "99.56407290185683"
+              }
+            },
+            "relative-transform": [
+              [
+                "0.9999995827674866",
+                "0.0009031126974150538",
+                "0.0"
+              ],
+              [
+                "-0.0009031126974150538",
+                "0.9999995827674866",
+                "0.0"
+              ]
+            ],
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "299.7873840332031"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "603.5184936523438"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Rectangle 472",
+              "Tenancy Agreement",
+              "Dreamsville House",
+              "Upload your tenancy agreement",
+              "Button/Primary"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Icon/arrow-left",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "40.39483642578125"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "50.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "Iconly/Light/Arrow - Left 2"
+            ],
+            "item-spacing": "8.669528007507324",
+            "clip-content": "false"
+          },
+          {
+            "id": "Rectangle 472",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "-35.81736994061063"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "-99.56380076563585"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "423.02215576171875"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "828.33642578125"
+              }
+            },
+            "vector-content": "rectangle_472.svg"
+          },
+          {
+            "id": "Tenancy Agreement",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "6.574080721352715"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "-1.8709993103915092"
+              }
+            },
+            "relative-transform": [
+              [
+                "0.9999995827674866",
+                "-0.0009031126974150538",
+                "0.0"
+              ],
+              [
+                "0.0009031126974150538",
+                "0.9999995827674866",
+                "0.0"
+              ]
+            ],
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "310.3691101074219"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "25.141632080078125"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Tenancy Agreement",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "27.742488861083984",
+            "line-height": "1.1740000415261436",
+            "typeface": "Raleway"
+          },
+          {
+            "id": "Dreamsville House",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "39.275248318604525"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "195.79426589785407"
+              }
+            },
+            "relative-transform": [
+              [
+                "0.9999995827674866",
+                "-0.0009031126974150538",
+                "0.0"
+              ],
+              [
+                "0.0009031126974150538",
+                "0.9999995827674866",
+                "0.0"
+              ]
+            ],
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "243.61373901367188"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "168.1888427734375"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Image"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Upload your tenancy agreement",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "28.970004680691403"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "158.51541692303397"
+              }
+            },
+            "relative-transform": [
+              [
+                "0.9999995827674866",
+                "-0.0009031126974150538",
+                "0.0"
+              ],
+              [
+                "0.0009031126974150538",
+                "0.9999995827674866",
+                "0.0"
+              ]
+            ],
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "265.2875671386719"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "25.141632080078125"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Upload your tenancy agreement",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "13.871244430541992",
+            "line-height": "1.1740000415261436",
+            "typeface": "Raleway"
+          },
+          {
+            "id": "Button/Primary",
+            "border-radius": "86.69527435302734",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "116.2334791486847"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "477.5549050865468"
+              }
+            },
+            "relative-transform": [
+              [
+                "0.9999995827674866",
+                "-0.0009031126974150538",
+                "0.0"
+              ],
+              [
+                "0.0009031126974150538",
+                "0.9999995827674866",
+                "0.0"
+              ]
+            ],
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "92.48497772216797"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "48.742488861083984"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Button/Primary1"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Image",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "243.61370849609375"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "168.18896484375"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Rectangle 13",
+              "webaliser-_TPTXZd9mOo-unsplash 1"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Rectangle 13",
+            "border-radius": "18.534854888916016",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "243.61370849609375"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "168.18896484375"
+              }
+            },
+            "image-content": "rectangle_13.png",
+            "scale": "cover"
+          },
+          {
+            "id": "webaliser-_TPTXZd9mOo-unsplash 1",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "316.33428955078125"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "183.6796875"
+              }
+            },
+            "image-content": "rectangle_13.png",
+            "scale": "cover"
+          },
+          {
+            "id": "Button/Primary1",
+            "padding": {
+              "left": "27.742488861083984",
+              "top": "13.871244430541992",
+              "right": "27.742488861083984",
+              "bottom": "13.871244430541992"
+            },
+            "border-radius": "86.69527435302734",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "main-axis-align": "start",
+            "children": [
+              "Submit"
+            ],
+            "item-spacing": "10.403432846069336",
+            "fills": [
+              {
+                "color": {},
+                "opacity": "1.0",
+                "fill-type": "lineargradient",
+                "blend-mode": "normal",
+                "color-stops": [
+                  {
+                    "color": {
+                      "alpha": "1.0",
+                      "hue": "189.28176795580112",
+                      "saturation": "0.9329896907216494",
+                      "value": "0.7607843137254902"
+                    },
+                    "color-stop-position": "0.0"
+                  },
+                  {
+                    "color": {
+                      "alpha": "0.0",
+                      "hue": "225.97826086956522",
+                      "saturation": "0.9292929292929293",
+                      "value": "0.7764705882352941"
+                    },
+                    "color-stop-position": "1.0"
+                  }
+                ],
+                "gradient-handle-positions": [
+                  {
+                    "x": "0.67",
+                    "y": "0.0"
+                  },
+                  {
+                    "x": "-0.24",
+                    "y": "3.04"
+                  },
+                  {
+                    "x": "-0.85",
+                    "y": "-5.46"
+                  }
+                ]
+              }
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Submit",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Done",
+            "overflow": "visible",
+            "text-size": "13.871244430541992",
+            "line-height": "1.4999999312481065",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Iconly/Light/Arrow - Left 2",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "20.806884765625"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "20.806884765625"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Arrow - Left 2"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Arrow - Left 2",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "4.33476400375366"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "7.369098663330078"
+              }
+            },
+            "relative-transform": [
+              [
+                "-1.8369701465288538e-16",
+                "-1.0",
+                "0.0"
+              ],
+              [
+                "1.0",
+                "-1.8369701465288538e-16",
+                "0.0"
+              ]
+            ],
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "12.137338638305664"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "6.068669319152832"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Stroke 1"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Stroke 1",
+            "margin": {
+              "right": "6.068674087524414"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "-0.65020751953125"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "-0.650146484375"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "stroke_1.svg"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "A3_SC9",
+      "size": {
+        "width": 393.00006103515625,
+        "height": 808.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

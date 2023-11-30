@@ -1,0 +1,766 @@
+{
+  "name": "a2_sc5",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "qKmWBlqDJZ3ypCEU21sTot",
+    "node": "182:649",
+    "version": "4719784214",
+    "component-id": "7afb1cf3dad5bee2ae23be8984c96b426c78e705"
+  },
+  "default": "A2_SC5",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "text",
+        "id": "Max & Maximum Repairs"
+      },
+      {
+        "type": "group",
+        "id": "Icon/arrow-left"
+      },
+      {
+        "type": "group",
+        "id": "Frame 3206"
+      },
+      {
+        "type": "vector",
+        "id": "Vector 3"
+      },
+      {
+        "type": "group",
+        "id": "Frame 3207"
+      },
+      {
+        "type": "vector",
+        "id": "Ellipse 1"
+      },
+      {
+        "type": "image",
+        "id": "istockphoto-1084688262-612x612 1"
+      },
+      {
+        "type": "group",
+        "id": "Frame 3208"
+      },
+      {
+        "type": "group",
+        "id": "Iconly/Light/Arrow - Left 2"
+      },
+      {
+        "type": "group",
+        "id": "Arrow - Left 2"
+      },
+      {
+        "type": "vector",
+        "id": "Stroke 1"
+      },
+      {
+        "type": "image",
+        "id": "Picture4 1"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 1727"
+      },
+      {
+        "type": "text",
+        "id": "Directions"
+      },
+      {
+        "type": "vector",
+        "id": "Line 3"
+      },
+      {
+        "type": "vector",
+        "id": "Line 4"
+      },
+      {
+        "type": "vector",
+        "id": "Line 5"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 1728"
+      },
+      {
+        "type": "text",
+        "id": "Contact Information Address: 1241 Lawson Ave. Mobile: (123) 123-1234 see more"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 1729"
+      },
+      {
+        "type": "text",
+        "id": "Services & Rates Roof Tiling $45/h Lawn Mowing $15/h see more"
+      }
+    ],
+    "modes": {
+      "A2_SC5": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "Max & Maximum Repairs",
+              "Icon/arrow-left",
+              "Frame 3206",
+              "Vector 3",
+              "Frame 3207",
+              "Ellipse 1",
+              "istockphoto-1084688262-612x612 1",
+              "Frame 3208"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            }
+          },
+          {
+            "id": "Max & Maximum Repairs",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "82.394775390625"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "109.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "238.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "30.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Max & Maximum Repairs      ",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "17.33905601501465",
+            "letter-spacing": "-0.20806866884231567",
+            "line-height": "1.4999999449984869",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Icon/arrow-left",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "60.394775390625"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "112.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "22.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "21.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Iconly/Light/Arrow - Left 2"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Frame 3206",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "52.8841552734375"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "176.8583984375"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "330.3089599609375"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "18.20599365234375"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Picture4 1",
+              "Rectangle 1727",
+              "Directions",
+              "Line 3",
+              "Line 4",
+              "Line 5"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Vector 3",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "40.3133544921875"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "392.72498321533203"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "241.012939453125"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "19.939910888671875"
+              }
+            },
+            "vector-content": "vector_3.svg"
+          },
+          {
+            "id": "Frame 3207",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "53.394775390625"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "507.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "283.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "90.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Rectangle 1728",
+              "Contact Information Address: 1241 Lawson Ave. Mobile: (123) 123-1234 see more"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Ellipse 1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "26.87548828125"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "387.5279235839844"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "17.339111328125"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "17.33905792236328"
+              }
+            },
+            "vector-content": "ellipse_1.svg"
+          },
+          {
+            "id": "istockphoto-1084688262-612x612 1",
+            "border-radius": "6.502145767211914",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "28.609375"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "389.2618408203125"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "13.8712158203125"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "13.871246337890625"
+              }
+            },
+            "image-content": "istockphoto_1084688262_612x612_1.jpeg",
+            "scale": "cover"
+          },
+          {
+            "id": "Frame 3208",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "55.394775390625"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "614.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "282.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "90.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Rectangle 1729",
+              "Services & Rates Roof Tiling $45/h Lawn Mowing $15/h see more"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Iconly/Light/Arrow - Left 2",
+            "is-structured": "false",
+            "children": [
+              "Arrow - Left 2"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Arrow - Left 2",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "4.8750007152557355"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "7.291657209396362"
+              }
+            },
+            "relative-transform": [
+              [
+                "-1.8369701465288538e-16",
+                "-1.0",
+                "0.0"
+              ],
+              [
+                "1.0",
+                "-1.8369701465288538e-16",
+                "0.0"
+              ]
+            ],
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "12.249999046325684"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "6.416667461395264"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Stroke 1"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Stroke 1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "-0.6502685546875"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "-0.65020751953125"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "stroke_1.svg"
+          },
+          {
+            "id": "Picture4 1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "-52.8841552734375"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "-3.8583984375"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "394.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "561.0"
+              }
+            },
+            "image-content": "picture4_1.jpeg",
+            "scale": "cover"
+          },
+          {
+            "id": "Rectangle 1727",
+            "border-radius": "1.733905553817749",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "-52.8841552734375"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "-3.8583984375"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "407.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "18.0"
+              }
+            },
+            "vector-content": "rectangle_1727.svg"
+          },
+          {
+            "id": "Directions",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "-4.33477783203125"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "193.3304443359375"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "18.20599365234375"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Directions",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "12.13733959197998",
+            "letter-spacing": "-0.20806866884231567",
+            "line-height": "1.4999999607132062",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Line 3",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "252.2833251953125"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "1.733917236328125"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "8.6695556640625"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "0.0"
+              }
+            },
+            "vector-content": "line_3.svg"
+          },
+          {
+            "id": "Line 4",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "252.2833251953125"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "4.33477783203125"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "8.6695556640625"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "0.0"
+              }
+            },
+            "vector-content": "line_4.svg"
+          },
+          {
+            "id": "Line 5",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "252.2833251953125"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "6.935638427734375"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "8.6695556640625"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "0.0"
+              }
+            },
+            "vector-content": "line_5.svg"
+          },
+          {
+            "id": "Rectangle 1728",
+            "border-radius": "45.9484977722168",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "1.7339248657226562"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "319.47216796875"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "205.4678192138672"
+              }
+            },
+            "vector-content": "rectangle_1728.svg"
+          },
+          {
+            "id": "Contact Information Address: 1241 Lawson Ave. Mobile: (123) 123-1234 see more",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "38.1458740234375"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "15.605172157287598"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "193.3304443359375"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "58.952796936035156"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "annotated-text-content": {
+              "text": "Contact Information\nAddress: 1241 Lawson Ave.\nMobile: (123) 123-1234\nsee more",
+              "annotated-text-span-list": [
+                {
+                  "span-start": "0",
+                  "span-length": "20"
+                },
+                {
+                  "span-start": "20",
+                  "span-length": "49",
+                  "annotated-text-style": {
+                    "text-size": "10.403432846069336"
+                  }
+                },
+                {
+                  "span-start": "69",
+                  "span-length": "8",
+                  "annotated-text-style": {
+                    "text-size": "8.669528007507324",
+                    "color": {
+                      "alpha": "1.0",
+                      "hue": "0.0",
+                      "saturation": "0.0",
+                      "value": "1.0"
+                    }
+                  }
+                }
+              ]
+            },
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "12.13733959197998",
+            "letter-spacing": "-0.20806866884231567",
+            "line-height": "1.4999999607132062",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Rectangle 1729",
+            "border-radius": "45.9484977722168",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "267.021484375"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "90.1630859375"
+              }
+            },
+            "vector-content": "rectangle_1729.svg"
+          },
+          {
+            "id": "Services & Rates Roof Tiling $45/h Lawn Mowing $15/h see more",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "34.6781005859375"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "15.605140686035156"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "193.3304443359375"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "58.952796936035156"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "annotated-text-content": {
+              "text": "Services & Rates\nRoof Tiling                          $45/h\nLawn Mowing                     $15/h\nsee more",
+              "annotated-text-span-list": [
+                {
+                  "span-start": "0",
+                  "span-length": "98"
+                },
+                {
+                  "span-start": "98",
+                  "span-length": "8",
+                  "annotated-text-style": {
+                    "text-size": "8.669528007507324",
+                    "color": {
+                      "alpha": "1.0",
+                      "hue": "0.0",
+                      "saturation": "0.0",
+                      "value": "1.0"
+                    }
+                  }
+                }
+              ]
+            },
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "12.13733959197998",
+            "letter-spacing": "-0.20806866884231567",
+            "line-height": "1.4999999607132062",
+            "typeface": "Poppins"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "A2_SC5",
+      "size": {
+        "width": 393.0,
+        "height": 808.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

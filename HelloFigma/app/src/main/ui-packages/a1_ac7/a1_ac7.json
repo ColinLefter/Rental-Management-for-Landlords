@@ -1,0 +1,1747 @@
+{
+  "name": "a1_ac7",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "qKmWBlqDJZ3ypCEU21sTot",
+    "node": "209:743",
+    "version": "4719784214",
+    "component-id": "dfe1a9ca1bf126e2d078f5ece057a842124e65e7"
+  },
+  "default": "A1_AC7",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 471"
+      },
+      {
+        "type": "group",
+        "id": "Add card "
+      },
+      {
+        "type": "group",
+        "id": "Frame 3646"
+      },
+      {
+        "type": "group",
+        "id": "Icon/arrow-left"
+      },
+      {
+        "type": "group",
+        "id": "Card name"
+      },
+      {
+        "type": "text",
+        "id": "-"
+      },
+      {
+        "type": "group",
+        "id": "Button/Primary"
+      },
+      {
+        "type": "group",
+        "id": "Frame 3647"
+      },
+      {
+        "type": "group",
+        "id": "Group 384"
+      },
+      {
+        "type": "group",
+        "id": "Card number"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 459"
+      },
+      {
+        "type": "text",
+        "id": "$600"
+      },
+      {
+        "type": "text",
+        "id": "Rent"
+      },
+      {
+        "type": "group",
+        "id": "Card number1"
+      },
+      {
+        "type": "text",
+        "id": "Tenant ID"
+      },
+      {
+        "type": "text",
+        "id": "Deposit"
+      },
+      {
+        "type": "text",
+        "id": "Cycle"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 460"
+      },
+      {
+        "type": "text",
+        "id": "Monthly"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 458"
+      },
+      {
+        "type": "text",
+        "id": "$1200"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 461"
+      },
+      {
+        "type": "text",
+        "id": "123456"
+      },
+      {
+        "type": "text",
+        "id": "Submit"
+      },
+      {
+        "type": "group",
+        "id": "Group 383"
+      },
+      {
+        "type": "text",
+        "id": "Name of Financial Institution"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 462"
+      },
+      {
+        "type": "text",
+        "id": "Institution Number"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 463"
+      },
+      {
+        "type": "text",
+        "id": "Transit Number"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 464"
+      },
+      {
+        "type": "text",
+        "id": "-1"
+      },
+      {
+        "type": "text",
+        "id": "-2"
+      },
+      {
+        "type": "text",
+        "id": "Account Number"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 465"
+      },
+      {
+        "type": "text",
+        "id": "-3"
+      },
+      {
+        "type": "text",
+        "id": "Banking"
+      },
+      {
+        "type": "text",
+        "id": "Manage Invoicing"
+      },
+      {
+        "type": "group",
+        "id": "Iconly/Light/Arrow - Left 2"
+      },
+      {
+        "type": "group",
+        "id": "Arrow - Left 2"
+      },
+      {
+        "type": "vector",
+        "id": "Stroke 1"
+      }
+    ],
+    "modes": {
+      "A1_AC7": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "Rectangle 471",
+              "Add card ",
+              "Frame 3646",
+              "Icon/arrow-left"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            }
+          },
+          {
+            "id": "Rectangle 471",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "393.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "828.0"
+              }
+            },
+            "vector-content": "rectangle_471.svg"
+          },
+          {
+            "id": "Add card ",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "37.55442839689994"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "98.97343079485984"
+              }
+            },
+            "relative-transform": [
+              [
+                "0.9999995827674866",
+                "0.0009031126974150538",
+                "0.0"
+              ],
+              [
+                "-0.0009031126974150538",
+                "0.9999995827674866",
+                "0.0"
+              ]
+            ],
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "293.7126770019531"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "610.1836547851562"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Card name",
+              "-",
+              "Button/Primary",
+              "Frame 3647"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Frame 3646",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "115.16265150488408"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "36.05791252555926"
+              }
+            },
+            "relative-transform": [
+              [
+                "0.9999995827674866",
+                "0.0009031126974150538",
+                "0.0"
+              ],
+              [
+                "-0.0009031126974150538",
+                "0.9999995827674866",
+                "0.0"
+              ]
+            ],
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "Manage Invoicing"
+            ],
+            "item-spacing": "9.13897705078125",
+            "clip-content": "false"
+          },
+          {
+            "id": "Icon/arrow-left",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "29.24462890625"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "37.8118896484375"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "21.93359375"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "21.93359375"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Iconly/Light/Arrow - Left 2"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Card name",
+            "border-radius": "13.708464622497559",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "13.694194793701172"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "-5.278177738189697"
+              }
+            },
+            "relative-transform": [
+              [
+                "1.0",
+                "1.0285092004415601e-19",
+                "0.0"
+              ],
+              [
+                "-1.0285092004415601e-19",
+                "1.0",
+                "0.0"
+              ]
+            ],
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "283.49700927734375"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "274.5325012207031"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Group 384"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "-",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "21.386625289727135"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "318.00708007568943"
+              }
+            },
+            "relative-transform": [
+              [
+                "1.0",
+                "-2.2335865795808374e-11",
+                "0.0"
+              ],
+              [
+                "-2.233586753053185e-11",
+                "1.0",
+                "0.0"
+              ]
+            ],
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "218.08535766601562"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "-",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "11.2703857421875",
+            "line-height": "1.5",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Button/Primary",
+            "padding": {
+              "left": "29.244728088378906",
+              "top": "14.622364044189453",
+              "right": "29.244728088378906",
+              "bottom": "14.622364044189453"
+            },
+            "border-radius": "91.38977813720703",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "109.29025745298406"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "611.4774879429382"
+              }
+            },
+            "relative-transform": [
+              [
+                "0.9999995827674866",
+                "-0.0009031126974150538",
+                "0.0"
+              ],
+              [
+                "0.0009031126974150538",
+                "0.9999995827674866",
+                "0.0"
+              ]
+            ],
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "27.416933059692383"
+              }
+            },
+            "children": [
+              "Submit"
+            ],
+            "item-spacing": "10.96677303314209",
+            "fills": [
+              {
+                "color": {},
+                "opacity": "1.0",
+                "fill-type": "lineargradient",
+                "blend-mode": "normal",
+                "color-stops": [
+                  {
+                    "color": {
+                      "alpha": "1.0",
+                      "hue": "189.28176795580112",
+                      "saturation": "0.9329896907216494",
+                      "value": "0.7607843137254902"
+                    },
+                    "color-stop-position": "0.0"
+                  },
+                  {
+                    "color": {
+                      "alpha": "0.0",
+                      "hue": "225.97826086956522",
+                      "saturation": "0.9292929292929293",
+                      "value": "0.7764705882352941"
+                    },
+                    "color-stop-position": "1.0"
+                  }
+                ],
+                "gradient-handle-positions": [
+                  {
+                    "x": "0.67",
+                    "y": "0.0"
+                  },
+                  {
+                    "x": "-0.24",
+                    "y": "3.04"
+                  },
+                  {
+                    "x": "-0.85",
+                    "y": "-5.46"
+                  }
+                ]
+              }
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Frame 3647",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "11.811824798583984"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "287.4242248535156"
+              }
+            },
+            "relative-transform": [
+              [
+                "1.0",
+                "1.0285092004415601e-19",
+                "0.0"
+              ],
+              [
+                "-1.0285092004415601e-19",
+                "1.0",
+                "0.0"
+              ]
+            ],
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "Group 383"
+            ],
+            "item-spacing": "9.13897705078125",
+            "clip-content": "false"
+          },
+          {
+            "id": "Group 384",
+            "border-radius": "13.708464622497559",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "283.744873046875"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "274.7884521484375"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Card number",
+              "Rectangle 459",
+              "$600",
+              "Rent",
+              "Card number1",
+              "Tenant ID",
+              "Deposit",
+              "Cycle",
+              "Rectangle 460",
+              "Monthly"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Card number",
+            "border-radius": "13.708464622497559",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "0.1267486810684204"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "93.58084869384766"
+              }
+            },
+            "relative-transform": [
+              [
+                "1.0",
+                "1.0285092004415601e-19",
+                "0.0"
+              ],
+              [
+                "-1.0285092004415601e-19",
+                "1.0",
+                "0.0"
+              ]
+            ],
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "283.3082275390625"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.21149444580078"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Rectangle 458",
+              "$1200"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Rectangle 459",
+            "border-radius": "13.708464622497559",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "0.07590517401695251"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "163.963134765625"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "283.3082275390625"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.21149444580078"
+              }
+            },
+            "vector-content": "rectangle_459.svg"
+          },
+          {
+            "id": "$600",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "11.020853042602539"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "174.77101135253906"
+              }
+            },
+            "relative-transform": [
+              [
+                "1.0",
+                "1.0285092004415601e-19",
+                "0.0"
+              ],
+              [
+                "-1.0285092004415601e-19",
+                "1.0",
+                "0.0"
+              ]
+            ],
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "\\$600",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "11.880668640136719",
+            "line-height": "1.5",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Rent",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "6.534965956837624"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "70.60523236496614"
+              }
+            },
+            "relative-transform": [
+              [
+                "0.9999995827674866",
+                "-0.0009031126974150538",
+                "0.0"
+              ],
+              [
+                "0.0009031126974150538",
+                "0.9999995827674866",
+                "0.0"
+              ]
+            ],
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "269.5998229980469"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "22.847442626953125"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Rent",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "11.880670547485352",
+            "line-height": "1.5000000802710851",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Card number1",
+            "border-radius": "13.708464622497559",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "0.18860168755054474"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "23.097381591796875"
+              }
+            },
+            "relative-transform": [
+              [
+                "1.0",
+                "1.0285092004415601e-19",
+                "0.0"
+              ],
+              [
+                "-1.0285092004415601e-19",
+                "1.0",
+                "0.0"
+              ]
+            ],
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "283.3082275390625"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.21149444580078"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Rectangle 461",
+              "123456"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Tenant ID",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "6.5968193656511005"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "0.12163812665916574"
+              }
+            },
+            "relative-transform": [
+              [
+                "0.9999995827674866",
+                "-0.0009031126974150538",
+                "0.0"
+              ],
+              [
+                "0.0009031126974150538",
+                "0.9999995827674866",
+                "0.0"
+              ]
+            ],
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "269.5998229980469"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "22.847442626953125"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Tenant ID",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "11.880670547485352",
+            "line-height": "1.5000000802710851",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Deposit",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "6.471414054066628"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "140.975189335181"
+              }
+            },
+            "relative-transform": [
+              [
+                "0.9999995827674866",
+                "-0.0009031126974150538",
+                "0.0"
+              ],
+              [
+                "0.0009031126974150538",
+                "0.9999995827674866",
+                "0.0"
+              ]
+            ],
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "269.5998229980469"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "22.847442626953125"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Deposit",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "11.880670547485352",
+            "line-height": "1.5000000802710851",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Cycle",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "9.149523699910134"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "211.34776318772006"
+              }
+            },
+            "relative-transform": [
+              [
+                "0.9999995827674866",
+                "-0.0009031126974150538",
+                "0.0"
+              ],
+              [
+                "0.0009031126974150538",
+                "0.9999995827674866",
+                "0.0"
+              ]
+            ],
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "269.5998229980469"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "22.847442626953125"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Cycle",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "11.880670547485352",
+            "line-height": "1.5000000802710851",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Rectangle 460",
+            "border-radius": "13.708464622497559",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "0.012353020647424273"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "234.33323669433594"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "283.3082275390625"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.21149444580078"
+              }
+            },
+            "vector-content": "rectangle_460.svg"
+          },
+          {
+            "id": "Monthly",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "10.957301139831543"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "245.1409912109375"
+              }
+            },
+            "relative-transform": [
+              [
+                "1.0",
+                "1.0285092004415601e-19",
+                "0.0"
+              ],
+              [
+                "-1.0285092004415601e-19",
+                "1.0",
+                "0.0"
+              ]
+            ],
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Monthly",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "11.880668640136719",
+            "line-height": "1.5",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Rectangle 458",
+            "border-radius": "13.708464622497559",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "0.012451171875"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "0.0123291015625"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "283.344482421875"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.46728515625"
+              }
+            },
+            "vector-content": "rectangle_458.svg"
+          },
+          {
+            "id": "$1200",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "9.139094352722168"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "10.96680736541748"
+              }
+            },
+            "relative-transform": [
+              [
+                "1.0",
+                "1.0285092004415601e-19",
+                "0.0"
+              ],
+              [
+                "-1.0285092004415601e-19",
+                "1.0",
+                "0.0"
+              ]
+            ],
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "\\$1200",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "11.880668640136719",
+            "line-height": "1.5",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Rectangle 461",
+            "border-radius": "13.708464622497559",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "0.012451171875"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "0.0123291015625"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "283.344482421875"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.46728515625"
+              }
+            },
+            "vector-content": "rectangle_461.svg"
+          },
+          {
+            "id": "123456",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "9.139259338378906"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "10.96696662902832"
+              }
+            },
+            "relative-transform": [
+              [
+                "1.0",
+                "1.0285092004415601e-19",
+                "0.0"
+              ],
+              [
+                "-1.0285092004415601e-19",
+                "1.0",
+                "0.0"
+              ]
+            ],
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "123456",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "11.880668640136719",
+            "line-height": "1.5",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Submit",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Submit",
+            "overflow": "visible",
+            "text-size": "10.96677303314209",
+            "line-height": "1.49999995651983",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Group 383",
+            "border-radius": "13.708464622497559",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "291.039306640625"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "313.714111328125"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Name of Financial Institution",
+              "Rectangle 462",
+              "Institution Number",
+              "Rectangle 463",
+              "Transit Number",
+              "Rectangle 464",
+              "-1",
+              "-2",
+              "Account Number",
+              "Rectangle 465",
+              "-3",
+              "Banking"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Name of Financial Institution",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "11.179548228413552"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "28.304981357886064"
+              }
+            },
+            "relative-transform": [
+              [
+                "0.9999995827674866",
+                "-0.0009031126974150538",
+                "0.0"
+              ],
+              [
+                "0.0009031126974150538",
+                "0.9999995827674866",
+                "0.0"
+              ]
+            ],
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "269.5998229980469"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "22.847442626953125"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Name of Financial Institution",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "11.880670547485352",
+            "line-height": "1.5000000802710851",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Rectangle 462",
+            "border-radius": "13.708464622497559",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "4.78259801864624"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "51.17967987060547"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "283.3082275390625"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.21149444580078"
+              }
+            },
+            "vector-content": "rectangle_462.svg"
+          },
+          {
+            "id": "Institution Number",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "13.857658351094216"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "98.67755139572786"
+              }
+            },
+            "relative-transform": [
+              [
+                "0.9999995827674866",
+                "-0.0009031126974150538",
+                "0.0"
+              ],
+              [
+                "0.0009031126974150538",
+                "0.9999995827674866",
+                "0.0"
+              ]
+            ],
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "269.5998229980469"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "22.847442626953125"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Institution Number",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "11.880670547485352",
+            "line-height": "1.5000000802710851",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Rectangle 463",
+            "border-radius": "13.708464622497559",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "7.460707664489746"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "121.55225372314453"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "283.3082275390625"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.21149444580078"
+              }
+            },
+            "vector-content": "rectangle_463.svg"
+          },
+          {
+            "id": "Transit Number",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "11.05244442287156"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "169.04516614182162"
+              }
+            },
+            "relative-transform": [
+              [
+                "0.9999995827674866",
+                "-0.0009031126974150538",
+                "0.0"
+              ],
+              [
+                "0.0009031126974150538",
+                "0.9999995827674866",
+                "0.0"
+              ]
+            ],
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "269.5998229980469"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "22.847442626953125"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Transit Number",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "11.880670547485352",
+            "line-height": "1.5000000802710851",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Rectangle 464",
+            "border-radius": "13.708464622497559",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "4.65549373626709"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "191.9198760986328"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "283.3082275390625"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.21149444580078"
+              }
+            },
+            "vector-content": "rectangle_464.svg"
+          },
+          {
+            "id": "-1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "18.40530014038086"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "132.46847534179688"
+              }
+            },
+            "relative-transform": [
+              [
+                "1.0",
+                "1.0285092004415601e-19",
+                "0.0"
+              ],
+              [
+                "-1.0285092004415601e-19",
+                "1.0",
+                "0.0"
+              ]
+            ],
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "229.89451599121094"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "-",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "11.880668640136719",
+            "line-height": "1.5",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "-2",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "18.341646194458008"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "202.95181274414062"
+              }
+            },
+            "relative-transform": [
+              [
+                "1.0",
+                "1.0285092004415601e-19",
+                "0.0"
+              ],
+              [
+                "-1.0285092004415601e-19",
+                "1.0",
+                "0.0"
+              ]
+            ],
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "229.89451599121094"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "-",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "11.880668640136719",
+            "line-height": "1.5",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Account Number",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "6.409551585347145"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "250.37779248459503"
+              }
+            },
+            "relative-transform": [
+              [
+                "0.9999995827674866",
+                "-0.0009031126974150538",
+                "0.0"
+              ],
+              [
+                "0.0009031126974150538",
+                "0.9999995827674866",
+                "0.0"
+              ]
+            ],
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "269.5998229980469"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "22.847442626953125"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Account Number",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "11.880670547485352",
+            "line-height": "1.5000000802710851",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Rectangle 465",
+            "border-radius": "13.708464622497559",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "0.012600488495081663"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "273.25274658203125"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "283.3082275390625"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.21149444580078"
+              }
+            },
+            "vector-content": "rectangle_465.svg"
+          },
+          {
+            "id": "-3",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "13.698495864868164"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "284.284423828125"
+              }
+            },
+            "relative-transform": [
+              [
+                "1.0",
+                "1.0285092004415601e-19",
+                "0.0"
+              ],
+              [
+                "-1.0285092004415601e-19",
+                "1.0",
+                "0.0"
+              ]
+            ],
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "229.89451599121094"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "-",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "11.880668640136719",
+            "line-height": "1.5",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Banking",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "11.21357250213623"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "0.00020634265092667192"
+              }
+            },
+            "relative-transform": [
+              [
+                "1.0",
+                "1.0285092004415601e-19",
+                "0.0"
+              ],
+              [
+                "-1.0285092004415601e-19",
+                "1.0",
+                "0.0"
+              ]
+            ],
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "163.4934844970703"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "25.589134216308594"
+              }
+            },
+            "color": {
+              "alpha": "0.8666666666666667",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Banking",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "18.2779541015625",
+            "line-height": "1.5",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Manage Invoicing",
+            "relative-transform": [
+              [
+                "1.0",
+                "1.0842021724855044e-19",
+                "0.0"
+              ],
+              [
+                "0.0",
+                "1.0",
+                "0.0"
+              ]
+            ],
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "163.4934844970703"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "25.589134216308594"
+              }
+            },
+            "color": {
+              "alpha": "0.8666666666666667",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Manage Invoicing",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "18.2779541015625",
+            "line-height": "1.5",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Iconly/Light/Arrow - Left 2",
+            "is-structured": "false",
+            "children": [
+              "Arrow - Left 2"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Arrow - Left 2",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "4.569487333297728"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "7.768129587173462"
+              }
+            },
+            "relative-transform": [
+              [
+                "-1.8369701465288538e-16",
+                "-1.0",
+                "0.0"
+              ],
+              [
+                "1.0",
+                "-1.8369701465288538e-16",
+                "0.0"
+              ]
+            ],
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "12.79456615447998"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "6.39728307723999"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Stroke 1"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Stroke 1",
+            "margin": {
+              "right": "6.3973493576049805"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "-0.685546875"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "-0.6854248046875"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "stroke_1.svg"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "A1_AC7",
+      "size": {
+        "width": 393.0,
+        "height": 808.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

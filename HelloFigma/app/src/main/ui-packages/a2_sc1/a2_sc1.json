@@ -1,0 +1,799 @@
+{
+  "name": "a2_sc1",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "qKmWBlqDJZ3ypCEU21sTot",
+    "node": "182:645",
+    "version": "4719784214",
+    "component-id": "45ed76a289863faebc7b5d4bf2ccca8056ad2d8a"
+  },
+  "default": "A2_SC1",
+  "documentation": "Activity 2 Full Shipment",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "group",
+        "id": "Group 35"
+      },
+      {
+        "type": "group",
+        "id": "Group 382"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 471"
+      },
+      {
+        "type": "group",
+        "id": "Group 371"
+      },
+      {
+        "type": "group",
+        "id": "Group 381"
+      },
+      {
+        "type": "group",
+        "id": "Group 370"
+      },
+      {
+        "type": "group",
+        "id": "Group 369"
+      },
+      {
+        "type": "group",
+        "id": "Group 368"
+      },
+      {
+        "type": "text",
+        "id": "Hello Jonathan"
+      },
+      {
+        "type": "text",
+        "id": "Hello Jonathan1"
+      },
+      {
+        "type": "group",
+        "id": "Group 377"
+      },
+      {
+        "type": "group",
+        "id": "Frame 3195"
+      },
+      {
+        "type": "group",
+        "id": "Group 378"
+      },
+      {
+        "type": "group",
+        "id": "Group 380"
+      },
+      {
+        "type": "group",
+        "id": "Group 379"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 1721"
+      },
+      {
+        "type": "text",
+        "id": "Maintenance & Repair"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 1722"
+      },
+      {
+        "type": "text",
+        "id": "Automated Rent Collection & Accounting"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 1723"
+      },
+      {
+        "type": "text",
+        "id": "Financial Analytics & Reporting"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 1724"
+      },
+      {
+        "type": "group",
+        "id": "Property Listing & Tenant Onboarding"
+      },
+      {
+        "type": "text",
+        "id": "Property Listing & Tenant Onboarding1"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 1725"
+      },
+      {
+        "type": "text",
+        "id": "Collaborative Access Dashboard"
+      }
+    ],
+    "modes": {
+      "A2_SC1": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "Group 35",
+              "Group 382"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            }
+          },
+          {
+            "id": "Group 35",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "393.4002685546875"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "808.5"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Rectangle 471"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Group 382",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "58.5526123046875"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "158.636474609375"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "277.2099609375"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "351.2664489746094"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Group 371",
+              "Group 381"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Rectangle 471",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "393.4002685546875"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "808.5"
+              }
+            },
+            "vector-content": "rectangle_471.svg"
+          },
+          {
+            "id": "Group 371",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "275.3801574707031"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "61.0140380859375"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Group 370"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Group 381",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "87.16287231445312"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "277.2099609375"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "264.10357666015625"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Group 377",
+              "Frame 3195",
+              "Group 378",
+              "Group 380",
+              "Group 379"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Group 370",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "275.3801574707031"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "61.0140380859375"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Group 369"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Group 369",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "275.3801574707031"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "61.0140380859375"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Group 368",
+              "Hello Jonathan"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Group 368",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "275.3801574707031"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "25.277252197265625"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Hello Jonathan1"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Hello Jonathan",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "35.73675537109375"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "275.3801574707031"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "25.277252197265625"
+              }
+            },
+            "font-weight": "300.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "What would you like to view?\n",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "13.074435234069824",
+            "letter-spacing": "-0.2091909497976303",
+            "line-height": "1.4999999635290435",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Hello Jonathan1",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "275.3801574707031"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "25.277252197265625"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Hello Jonathan,\n",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "17.432580947875977",
+            "letter-spacing": "-0.2091909497976303",
+            "line-height": "1.5000000547064325",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Group 377",
+            "border-radius": "68.85869598388672",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "277.2099609375"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "37.48004150390625"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Rectangle 1721",
+              "Maintenance & Repair"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Frame 3195",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "56.6558837890625"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "277.2099609375"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "37.48004150390625"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Rectangle 1722",
+              "Automated Rent Collection & Accounting"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Group 378",
+            "border-radius": "68.85869598388672",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "169.96763610839844"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "277.2099609375"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "37.480045318603516"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Rectangle 1723",
+              "Financial Analytics & Reporting"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Group 380",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "113.311767578125"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "277.2099609375"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "37.48004150390625"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Rectangle 1724",
+              "Property Listing & Tenant Onboarding"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Group 379",
+            "border-radius": "68.85869598388672",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "226.62353515625"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "277.2099609375"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "37.480045318603516"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Rectangle 1725",
+              "Collaborative Access Dashboard"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Rectangle 1721",
+            "border-radius": "68.85869598388672",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "277.2099609375"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "37.48004150390625"
+              }
+            },
+            "vector-content": "rectangle_1721.svg"
+          },
+          {
+            "id": "Maintenance & Repair",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "10.459564208984375"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "277.2099609375"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Maintenance & Repair",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "12.202805519104004",
+            "letter-spacing": "-0.2091909497976303",
+            "line-height": "1.500000039076027",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Rectangle 1722",
+            "border-radius": "68.85869598388672",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "264.10357666015625"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "37.48004150390625"
+              }
+            },
+            "vector-content": "rectangle_1722.svg"
+          },
+          {
+            "id": "Automated Rent Collection & Accounting",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "9.587905883789062"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "262.36029052734375"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "17.432571411132812"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Automated Rent Collection & Accounting",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "12.202805519104004",
+            "letter-spacing": "-0.2091909497976303",
+            "line-height": "1.500000039076027",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Rectangle 1723",
+            "border-radius": "68.85869598388672",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "277.2099609375"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "37.480045318603516"
+              }
+            },
+            "vector-content": "rectangle_1723.svg"
+          },
+          {
+            "id": "Financial Analytics & Reporting",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "49.403717041015625"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "10.459556579589844"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "191.03192138671875"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Financial Analytics & Reporting",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "12.202805519104004",
+            "letter-spacing": "-0.2091909497976303",
+            "line-height": "1.500000039076027",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Rectangle 1724",
+            "border-radius": "68.85869598388672",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "277.2099609375"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "37.48004150390625"
+              }
+            },
+            "vector-content": "rectangle_1724.svg"
+          },
+          {
+            "id": "Property Listing & Tenant Onboarding",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "24.701873779296875"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "9.587921142578125"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "231.46572875976562"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "18.30420684814453"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Property Listing & Tenant Onboarding1"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Property Listing & Tenant Onboarding1",
+            "margin": {
+              "left": "5.0",
+              "right": "6.465728759765625",
+              "bottom": "0.30420684814453125"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Property Listing & Tenant Onboarding",
+            "overflow": "visible",
+            "text-size": "12.202805519104004",
+            "letter-spacing": "-0.20919093489646912",
+            "line-height": "1.500000039076027",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Rectangle 1725",
+            "border-radius": "68.85869598388672",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "277.2099609375"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "37.480045318603516"
+              }
+            },
+            "vector-content": "rectangle_1725.svg"
+          },
+          {
+            "id": "Collaborative Access Dashboard",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "42.08465576171875"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "9.587913513183594"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "204.67706298828125"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Collaborative Access Dashboard",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "12.202805519104004",
+            "letter-spacing": "-0.2091909497976303",
+            "line-height": "1.500000039076027",
+            "typeface": "Poppins"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "A2_SC1",
+      "size": {
+        "width": 393.0,
+        "height": 808.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

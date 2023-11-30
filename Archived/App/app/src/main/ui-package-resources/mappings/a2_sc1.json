@@ -1,0 +1,6 @@
+{
+    "target": "A2Sc1",
+    "package": "com.example.rentalmanagementforlandlords.a2sc1",
+    "generateImplementation": true,
+    "generatePreviews": true
+}
