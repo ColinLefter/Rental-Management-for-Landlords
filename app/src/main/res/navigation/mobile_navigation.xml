@@ -32,15 +32,43 @@
         android:name="com.example.rentalmanagementforlandlords.ui.majorTask4.task4"
         android:label="@string/title_analytics"
         tools:layout="@layout/task_4" />
+        <action
+            android:id="@+id/action_task4_to_task4AccountsSummary"
+            app:destination="@id/task4AccountsSummary" />
+        <action
+            android:id="@+id/action_task4_to_task4Analytics"
+            app:destination="@id/task4Analytics" />
+        <action
+            android:id="@+id/action_task4_to_task4Expenses"
+            app:destination="@id/task4Expenses" />
 
     <fragment
         android:id="@+id/majorTask5"
         android:name="com.example.rentalmanagementforlandlords.ui.majorTask5.task5"
         android:label="@string/title_collaboration"
         tools:layout="@layout/task_5" />
+
+    <fragment
+        android:id="@+id/task4AccountsSummary"
+        android:name="com.example.rentalmanagementforlandlords.ui.majorTask4.task4AccountsSummary"
+        android:label="Accounts Summary"
+        tools:layout="@layout/task_4_accounts_summary" />
+
+    <fragment
+        android:id="@+id/task4Analytics"
+        android:name="com.example.rentalmanagementforlandlords.ui.majorTask4.task4Analytics"
+        android:label="Analytics"
+        tools:layout="@layout/task_4_analytics" />
+
+    <fragment
+        android:id="@+id/task4Expenses"
+        android:name="com.example.rentalmanagementforlandlords.ui.majorTask4.task4Expenses"
+        android:label="Expenses"
+        tools:layout="@layout/task_4_expenses" />
+
     <fragment
         android:id="@+id/mainFragment"
-        android:name="com.example.rentalmanagementforlandlords.ui.MainFragment"
+        android:name="com.example.rentalmanagementforlandlords.ui.mainFragment"
         android:label=""
         tools:layout="@layout/fragment_main" >
         <action
