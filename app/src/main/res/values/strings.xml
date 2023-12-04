@@ -3,4 +3,11 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+    <string name="hello">Hello,</string>
+    <string name="what_would_you_like_to_view">What would you like to view?</string>
+    <string name="maintenance_repair"><![CDATA[Maintenance & Repair]]></string>
+    <string name="automated_rent_accounting"><![CDATA[Automated Rent & Accounting]]></string>
+    <string name="listing_tenant_onboarding"><![CDATA[Listing & Tenant Onboarding]]></string>
+    <string name="collaboartive_access">Collaboartive Access</string>
+    <string name="financial_analytics">Financial Analytics</string>
 </resources>
