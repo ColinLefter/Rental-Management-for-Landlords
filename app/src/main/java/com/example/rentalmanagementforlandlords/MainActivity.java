@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
 
         Button majorTask1Button = findViewById(R.id.majorTask1Button);
         majorTask1Button.setOnClickListener(l -> {
-            navController.navigate(R.id.action_majorTask1_to_majorTask2);
+            navController.navigate(R.id.majorTask2);
             Toast.makeText(this, "hey", Toast.LENGTH_LONG).show();
 //            Intent majorTask1Intent = new Intent(get, task1.class);
 //            startActivity(majorTask1Intent);

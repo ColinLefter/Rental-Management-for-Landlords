@@ -17,6 +17,11 @@ public class task1 extends Fragment {
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
+
+
+//        container.getParent()..setVisibility(View.GONE);
+
+
         task1ViewModel dashboardViewModel =
                 new ViewModelProvider(this).get(task1ViewModel.class);
 

@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/majorTask1">
+    app:startDestination="@id/mainFragment">
 
     <fragment
         android:id="@+id/majorTask1"
@@ -38,4 +38,25 @@
         android:name="com.example.rentalmanagementforlandlords.ui.majorTask5.task5"
         android:label="@string/collaboartive_access"
         tools:layout="@layout/task_5" />
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.rentalmanagementforlandlords.ui.MainFragment"
+        android:label=""
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_majorTask1"
+            app:destination="@id/majorTask1" />
+        <action
+            android:id="@+id/action_mainFragment_to_majorTask2"
+            app:destination="@id/majorTask2" />
+        <action
+            android:id="@+id/action_mainFragment_to_majorTask4"
+            app:destination="@id/majorTask4" />
+        <action
+            android:id="@+id/action_mainFragment_to_majorTask3"
+            app:destination="@id/majorTask3" />
+        <action
+            android:id="@+id/action_mainFragment_to_majorTask5"
+            app:destination="@id/majorTask5" />
+    </fragment>
 </navigation>
