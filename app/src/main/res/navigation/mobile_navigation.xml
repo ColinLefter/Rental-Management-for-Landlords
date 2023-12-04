@@ -18,7 +18,7 @@
     <fragment
         android:id="@+id/majorTask2"
         android:name="com.example.rentalmanagementforlandlords.ui.majorTask2.task2"
-        android:label="@string/maintenance_repair"
+        android:label="@string/title_accounting"
         tools:layout="@layout/task_2" />
 
     <fragment
@@ -30,13 +30,13 @@
     <fragment
         android:id="@+id/majorTask4"
         android:name="com.example.rentalmanagementforlandlords.ui.majorTask4.task4"
-        android:label="@string/financial_analytics"
+        android:label="@string/title_analytics"
         tools:layout="@layout/task_4" />
 
     <fragment
         android:id="@+id/majorTask5"
         android:name="com.example.rentalmanagementforlandlords.ui.majorTask5.task5"
-        android:label="@string/collaboartive_access"
+        android:label="@string/title_collaboration"
         tools:layout="@layout/task_5" />
     <fragment
         android:id="@+id/mainFragment"
@@ -50,11 +50,11 @@
             android:id="@+id/action_mainFragment_to_majorTask2"
             app:destination="@id/majorTask2" />
         <action
-            android:id="@+id/action_mainFragment_to_majorTask4"
-            app:destination="@id/majorTask4" />
-        <action
             android:id="@+id/action_mainFragment_to_majorTask3"
             app:destination="@id/majorTask3" />
+        <action
+            android:id="@+id/action_mainFragment_to_majorTask4"
+            app:destination="@id/majorTask4" />
         <action
             android:id="@+id/action_mainFragment_to_majorTask5"
             app:destination="@id/majorTask5" />

@@ -3,27 +3,27 @@
 
     <item
         android:id="@+id/mainFragment"
+        android:icon="@drawable/major_task_2"
+        android:title="@string/title_accounting" />
+
+    <item
+        android:id="@+id/majorTask2"
         android:icon="@drawable/major_task_1"
         android:title="@string/title_home" />
 
     <item
-        android:id="@+id/majorTask2"
-        android:icon="@drawable/major_task_2"
-        android:title="@string/title_dashboard" />
-
-    <item
         android:id="@+id/majorTask3"
         android:icon="@drawable/major_task_3"
-        android:title="@string/title_notifications" />
+        android:title="@string/title_listings" />
 
     <item
         android:id="@+id/majorTask4"
         android:icon="@drawable/major_task_4"
-        android:title="@string/title_notifications" />
+        android:title="@string/title_analytics" />
 
     <item
         android:id="@+id/majorTask5"
         android:icon="@drawable/major_task_5"
-        android:title="@string/title_notifications" />
+        android:title="@string/title_collaboration" />
 
 </menu>
