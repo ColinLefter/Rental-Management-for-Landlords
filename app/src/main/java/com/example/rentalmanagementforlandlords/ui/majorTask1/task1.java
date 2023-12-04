@@ -21,9 +21,8 @@ public class task1 extends Fragment {
                 new ViewModelProvider(this).get(task1ViewModel.class);
 
         binding = Task1Binding.inflate(inflater, container, false);
-        View root = binding.getRoot();
 
-        return root;
+        return binding.getRoot();
     }
 
     @Override

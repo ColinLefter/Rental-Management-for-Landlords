@@ -1,6 +1,8 @@
 package com.example.rentalmanagementforlandlords;
 
 import android.os.Bundle;
+import android.widget.Button;
+import android.widget.Toast;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
@@ -36,6 +38,14 @@ public class MainActivity extends AppCompatActivity {
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_activity_main);
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
         NavigationUI.setupWithNavController(binding.navView, navController);
+
+        Button majorTask1Button = findViewById(R.id.majorTask1Button);
+        majorTask1Button.setOnClickListener(l -> {
+            navController.navigate(R.id.action_majorTask1_to_majorTask2);
+            Toast.makeText(this, "hey", Toast.LENGTH_LONG).show();
+//            Intent majorTask1Intent = new Intent(get, task1.class);
+//            startActivity(majorTask1Intent);
+        });
     }
 
 }
