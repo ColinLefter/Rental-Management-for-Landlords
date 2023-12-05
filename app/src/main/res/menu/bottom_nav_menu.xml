@@ -2,7 +2,7 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/mainFragment"
+        android:id="@+id/majorTask2"
         android:icon="@drawable/major_task_2"
         android:title="@string/title_home" />
 

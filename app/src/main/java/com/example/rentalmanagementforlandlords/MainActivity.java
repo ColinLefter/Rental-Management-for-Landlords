@@ -35,17 +35,9 @@ public class MainActivity extends AppCompatActivity {
                 R.id.majorTask4,
                 R.id.majorTask5)
                 .build();
-        NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_activity_main);
+        NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_activity_main); // start from settings
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
         NavigationUI.setupWithNavController(binding.navView, navController);
-
-        Button majorTask1Button = findViewById(R.id.majorTask1Button);
-        majorTask1Button.setOnClickListener(l -> {
-            navController.navigate(R.id.majorTask2);
-            Toast.makeText(this, "hey", Toast.LENGTH_LONG).show();
-//            Intent majorTask1Intent = new Intent(get, task1.class);
-//            startActivity(majorTask1Intent);
-        });
     }
     @Override
     public boolean onSupportNavigateUp() {
