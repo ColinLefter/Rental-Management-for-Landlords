@@ -29,12 +29,12 @@
     <TextView
         android:id="@+id/task1"
         android:layout_width="150dp"
-        android:layout_height="25dp"
+        android:layout_height="50dp"
         android:layout_marginStart="50dp"
         android:layout_marginTop="50dp"
         android:layout_marginEnd="50dp"
         android:layout_marginBottom="400dp"
-        android:text="Insert Task Name: "
+        android:text="\nInsert Task Name: "
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -46,7 +46,7 @@
     <EditText
         android:id="@+id/taskInput"
         android:layout_width="150dp"
-        android:layout_height="25dp"
+        android:layout_height="50dp"
         android:layout_marginTop="56dp"
         android:layout_marginEnd="50dp"
         android:ems="10"
