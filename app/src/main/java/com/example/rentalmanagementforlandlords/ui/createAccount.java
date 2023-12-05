@@ -66,6 +66,8 @@ public class createAccount extends Fragment {
         double incomeBTax = revenue - expenses;
         double tax = 6678.88;
         double incomeATax = incomeBTax - tax;
+        double numProperties = 2;
+
         String[][] expensesMatrix = {
                 {"We Fix It", "Shopping", "13 Dec 2023", "$75.67"},
                 {"Max & Maximum Repairs", "Shopping", "14 Dec 2023", "$250.00"},
@@ -77,7 +79,7 @@ public class createAccount extends Fragment {
         // Write to database
         writeToDB(username, password, firstName, lastName, email,
                   totalAssetValuation, mFees, qFees, ytdFees,
-                  revenue, expenses, incomeBTax, tax, incomeATax, incomeATax,
+                  revenue, expenses, incomeBTax, tax, incomeATax, incomeATax, numProperties,
                   expensesMatrix);
 
         // After writing to the database, navigate back to the main activity
@@ -88,7 +90,7 @@ public class createAccount extends Fragment {
     public void writeToDB(String username, String password, String firstName, String lastName,
                           String email, double totalAssetValuation, double mFees,
                           double qFees, double ytdFees, double revenue, double expenses,
-                          double incomeBTax, double tax, double incomeATax, double netIncome,
+                          double incomeBTax, double tax, double incomeATax, double netIncome, double numProperties,
                           String[][] expensesMatrix) {
 
         DatabaseReference currentStudent = root.child(username);
