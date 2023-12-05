@@ -13,6 +13,15 @@
         <action
             android:id="@+id/action_majorTask1_to_majorTask2"
             app:destination="@id/majorTask2" />
+        <action
+            android:id="@+id/action_majorTask1_to_task1_AddTenant"
+            app:destination="@id/task1_AddTenant" />
+        <action
+            android:id="@+id/action_majorTask1_to_task1_ViewConnectedAccounts"
+            app:destination="@id/task1_ViewConnectedAccounts" />
+        <action
+            android:id="@+id/action_majorTask1_to_task1_ManageInvoicing"
+            app:destination="@id/task1_ManageInvoicing" />
     </fragment>
 
     <fragment
@@ -82,4 +91,19 @@
         android:label="Create Account"
         tools:layout="@layout/create_account" />
 
+    <fragment
+        android:id="@+id/task1_AddTenant"
+        android:name="com.example.rentalmanagementforlandlords.ui.majorTask1.task1_AddTenant"
+        android:label="Add Tenant"
+        tools:layout="@layout/fragment_task1__add_tenant" />
+    <fragment
+        android:id="@+id/task1_ManageInvoicing"
+        android:name="com.example.rentalmanagementforlandlords.ui.majorTask1.task1_ManageInvoicing"
+        android:label="Manage Invoicing"
+        tools:layout="@layout/fragment_task1__manage_invoicing" />
+    <fragment
+        android:id="@+id/task1_ViewConnectedAccounts"
+        android:name="com.example.rentalmanagementforlandlords.ui.majorTask1.task1_ViewConnectedAccounts"
+        android:label="Connected Accounts"
+        tools:layout="@layout/fragment_task1__view_connected_accounts" />
 </navigation>
