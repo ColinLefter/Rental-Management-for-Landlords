@@ -1,4 +1,4 @@
-package com.example.rentalmanagementforlandlords.ui.createAccount;
+package com.example.rentalmanagementforlandlords.ui;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
