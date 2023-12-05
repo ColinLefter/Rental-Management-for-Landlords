@@ -45,12 +45,6 @@ public class MainActivity extends AppCompatActivity {
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_activity_main); // start from settings
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
         NavigationUI.setupWithNavController(binding.navView, navController);
-
-        Button majorTask1Button = findViewById(R.id.majorTask1Button);
-        majorTask1Button.setOnClickListener(l -> {
-            navController.navigateUp();
-            navController.navigate(R.id.action_mainFragment_to_majorTask1);
-        });
     }
     @Override
     public boolean onSupportNavigateUp() {
