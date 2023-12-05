@@ -5,7 +5,7 @@
     android:id="@+id/mainFragment"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.MainFragment">
+    tools:context=".ui.mainFragment">
 
     <TextView
         android:id="@+id/textView"
@@ -60,7 +60,7 @@
         android:id="@+id/createAccountButton"
         android:layout_width="230dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
+        android:layout_marginTop="8dp"
         android:text="@string/go_to_create_account"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -71,7 +71,7 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="184dp"
+        android:layout_marginTop="128dp"
         android:text="Don't have an account?"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"

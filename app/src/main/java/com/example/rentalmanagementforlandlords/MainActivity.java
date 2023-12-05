@@ -13,14 +13,21 @@ import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
 import com.example.rentalmanagementforlandlords.databinding.ActivityMainBinding;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
     private ActivityMainBinding binding;
+    private DatabaseReference root;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        root = FirebaseDatabase.getInstance().getReference();
 
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
@@ -43,6 +50,39 @@ public class MainActivity extends AppCompatActivity {
     public boolean onSupportNavigateUp() {
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_activity_main);
         return navController.navigateUp() || super.onSupportNavigateUp();
+    }
+
+    public void writeToDB(String username, String password, String firstName, String lastName,
+                          String email, double totalAssetValuation, double mFees,
+                          double qFees, double ytdFees, double revenue, double expenses,
+                          double incomeBTax, double tax, double incomeATax, double netIncome,
+                          double[][] expensesMatrix) {
+
+        DatabaseReference currentStudent = root.child(username);
+        currentStudent.child("password").setValue(password);
+        currentStudent.child("firstName").setValue(firstName);
+        currentStudent.child("lastName").setValue(lastName);
+        currentStudent.child("email").setValue(email);
+        currentStudent.child("totalAssetValuation").setValue(totalAssetValuation);
+        currentStudent.child("mFees").setValue(mFees);
+        currentStudent.child("qFees").setValue(qFees);
+        currentStudent.child("ytdFees").setValue(ytdFees);
+        currentStudent.child("revenue").setValue(revenue);
+        currentStudent.child("expenses").setValue(expenses);
+        currentStudent.child("incomeBeforeTax").setValue(incomeBTax);
+        currentStudent.child("tax").setValue(tax);
+        currentStudent.child("incomeAfterTax").setValue(incomeATax);
+        currentStudent.child("netIncome").setValue(netIncome);
+
+        List<List<Double>> expensesList = new ArrayList<>();
+        for (double[] expensesRow : expensesMatrix) {
+            List<Double> rowList = new ArrayList<>();
+            for (double expense : expensesRow) {
+                rowList.add(expense);
+            }
+            expensesList.add(rowList);
+        }
+        currentStudent.child("expensesMatrix").setValue(expensesList);
     }
 
 }

@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "96576689961",
+    "firebase_url": "https://cosc341-content-default-rtdb.firebaseio.com",
+    "project_id": "cosc341-content",
+    "storage_bucket": "cosc341-content.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:96576689961:android:fdbfd13efd5fc8788d4938",
+        "android_client_info": {
+          "package_name": "com.example.cosc341_lab2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCg92GGXVDyGaOpcrkcPivDaqd_SobMdJQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:96576689961:android:45a0923b432d88fa8d4938",
+        "android_client_info": {
+          "package_name": "com.example.cosc341firebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCg92GGXVDyGaOpcrkcPivDaqd_SobMdJQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:96576689961:android:5751d877462a36498d4938",
+        "android_client_info": {
+          "package_name": "com.example.rentalmanagementforlandlords"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCg92GGXVDyGaOpcrkcPivDaqd_SobMdJQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
