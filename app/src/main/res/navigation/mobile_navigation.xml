@@ -52,7 +52,7 @@
         android:id="@+id/task4AccountsSummary"
         android:name="com.example.rentalmanagementforlandlords.ui.majorTask4.task4AccountsSummary"
         android:label="Accounts Summary"
-        tools:layout="@layout/task_4_accounts_summary" />
+        tools:layout="@layout/task_4_expenses" />
 
     <fragment
         android:id="@+id/task4Analytics"
@@ -64,7 +64,7 @@
         android:id="@+id/task4Expenses"
         android:name="com.example.rentalmanagementforlandlords.ui.majorTask4.task4Expenses"
         android:label="Expenses"
-        tools:layout="@layout/task_4_expenses" />
+        tools:layout="@layout/task_4_accounts_summary" />
 
     <fragment
         android:id="@+id/mainFragment"
