@@ -23,4 +23,17 @@
     <string name="email">Email</string>
     <string name="about_you">About you</string>
     <string name="login_details">Login details</string>
+
+    <string-array name="arraySpinner">
+        <item>"Administrator"</item>
+        <item>"Editor"</item>
+        <item>"Viewer"</item>
+    </string-array>
+
+    <string-array name="arraySpinnerChange">
+        <item>"Administrator"</item>
+        <item>"Editor"</item>
+        <item>"Viewer"</item>
+        <item>"Remove"</item>
+    </string-array>
 </resources>
