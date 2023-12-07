@@ -84,11 +84,10 @@
     <TextView
         android:id="@+id/task1"
         android:layout_width="300dp"
-        android:layout_height="50dp"
+        android:layout_height="100dp"
         android:layout_marginTop="50dp"
         android:layout_marginEnd="50dp"
         android:layout_marginBottom="400dp"
-        android:text="■ Fix fence posts"
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -97,8 +96,27 @@
         app:layout_constraintTop_toBottomOf="@id/tasksView"
         app:layout_constraintVertical_bias="0.034" />
 
+
     <Button
-        android:id="@+id/completed1"
+        android:id="@+id/next"
+        android:layout_width="100dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="200dp"
+        android:onClick="onClickMark"
+        android:text="Next Task"
+        android:textAlignment="center"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.217"
+        app:layout_constraintStart_toEndOf="@id/draftTask"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.478" />
+
+    <Button
+        android:id="@+id/completed"
         android:layout_width="100dp"
         android:layout_height="55dp"
         android:layout_marginTop="20dp"
@@ -110,10 +128,28 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.217"
-        app:layout_constraintStart_toEndOf="@id/draftTask"
+        app:layout_constraintHorizontal_bias="0.53"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.372" />
+        app:layout_constraintVertical_bias="0.478" />
+
+    <Button
+        android:id="@+id/previous"
+        android:layout_width="100dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="200dp"
+        android:onClick="onClickMark"
+        android:text="Previous Task"
+        android:textAlignment="center"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/draftTask"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.478" />
 
     <Button
         android:id="@+id/backTodo"
@@ -134,4 +170,5 @@
         app:layout_constraintStart_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

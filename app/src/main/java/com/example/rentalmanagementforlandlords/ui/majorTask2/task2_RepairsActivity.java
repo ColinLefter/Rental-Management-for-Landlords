@@ -4,8 +4,10 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
-import com.example.rentalmanagementforlandlords.R;
+
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.rentalmanagementforlandlords.R;
 
 public class task2_RepairsActivity extends AppCompatActivity {
 
@@ -17,7 +19,6 @@ public class task2_RepairsActivity extends AppCompatActivity {
         setContentView(R.layout.task_2_activity_repairs);
         Intent intent = getIntent();
         Bundle bundle = intent.getExtras();
-
     }
 
     public void onClickRepairs (View view){

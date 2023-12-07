@@ -1,20 +1,20 @@
 package com.example.rentalmanagementforlandlords.ui.majorTask2;
 
+import android.content.Intent;
+import android.os.Bundle;
+import android.util.Log;
+import android.view.View;
+import android.widget.TextView;
+
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.rentalmanagementforlandlords.R;
-
-import android.content.Intent;
-import android.os.Bundle;
-import android.view.View;
-import android.widget.TextView;
-import android.widget.Toast;
-
-import java.io.BufferedReader;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.InputStreamReader;
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 
 //home page for task2
@@ -24,6 +24,10 @@ public class Task2_Activity extends AppCompatActivity {
     TextView notif;
     TextView repairs;
     TextView todo;
+    DatabaseReference root;
+    String notifOutput;
+    String repairsOutput;
+    String todoOutput;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,8 +37,8 @@ public class Task2_Activity extends AppCompatActivity {
         //setting the title screen
         notifCount = findViewById(R.id.notifCount);
         tasksCount = findViewById(R.id.tasksCount);
-        notifCount.setText("Notifications: " + counter("notif.txt"));
-        tasksCount.setText("Tasks: " + counter("todo.txt"));
+
+
 
         //displaying the required things to do for notifs, repairs and to do
         //shows only the first 3 of the list
@@ -42,11 +46,10 @@ public class Task2_Activity extends AppCompatActivity {
         repairs = findViewById(R.id.repairs);
         todo = findViewById(R.id.todo);
 
-        notif.setText("Tenant Notifications\n\n" + retrieval("notif.txt"));
-        repairs.setText("Repairs & Services\n\n" + retrieval("repairs.txt"));
-        todo.setText("To Do\n\n" + retrieval("todo.txt"));
-    }
+        repairs.setText("\nRepairs & Services\n\nGeneral Services\nElectricians\nMechanics\nMovers\n");
 
+        root = FirebaseDatabase.getInstance().getReference();
+    }
     public void onClickNotif (View view){
         Intent intent = new Intent(this, task2_NotifActivity.class);
         Bundle bundle = new Bundle();
@@ -65,54 +68,28 @@ public class Task2_Activity extends AppCompatActivity {
         intent.putExtras(bundle);
         startActivity(intent);
     }
-    public int counter(String file) {
-        try {
-            FileInputStream input = this.openFileInput(file);
-            InputStreamReader reader = new InputStreamReader(input);
 
-            // It creates a way to convert the raw data from the file into human-readable text.
-            BufferedReader buffer = new BufferedReader(reader);
-            String line = "";
-            int count = 0;
-
-            //checking that the file is not empty
-            //counting the number of lines, as 1 line = 1 notifiication
-            while ((line = buffer.readLine()) != null) {
-                count++;
+    private OnCompleteListener<DataSnapshot> onValuesFetched = new OnCompleteListener<DataSnapshot>() {
+        @Override
+        public void onComplete(@NonNull Task<DataSnapshot> task) {
+            if (!task.isSuccessful()) {
+                Log.e("firebase", "Error getting data", task.getException());
             }
-            return count;
-        } catch (IOException e) {
-            e.printStackTrace();
-            return 0;
-        }
-    }
-    public String retrieval(String file){
-        try {
-            FileInputStream input = this.openFileInput(file);
-            InputStreamReader reader = new InputStreamReader(input);
-
-            // It creates a way to convert the raw data from the file into human-readable text.
-            BufferedReader buffer = new BufferedReader(reader);
-            String line = "";
-            String lineAdd = "";
-            //counts the number of lines, ensures that only the first 3 lines are output
-            int lineCounter = 0;
-
-            //checking that the file is not empty
-            //runs loop to retrieve the first 3 lines, or if there is <3 lines ensure that it runs
-            //as long as there are lines
-            while ((line = buffer.readLine()) != null && lineCounter < 3){
-                //cutting off to ensure that only the first 35 chars are shown to maintain space efficiency
-                if (line.length() > 35){
-                    line = line.substring(0, 36     ) + "...";
+            else {
+                DataSnapshot receivedValue = task.getResult();
+                for (DataSnapshot node : receivedValue.getChildren()) {
+                    notifOutput = node.child("notif").getValue().toString();
+                    repairsOutput = node.child("repairs").getValue().toString();
+                    todoOutput = node.child("todo").getValue().toString();
                 }
-                lineAdd += line +"\n";
-                lineCounter++;
+                String []  notifOutputCount = notifOutput.split("\n");
+                String [] todoOutputCount = todoOutput.split("\n");
+                notifCount.setText("Notifications: " + notifOutputCount.length);
+                tasksCount.setText("Tasks: " + todoOutputCount);
+                notif.setText(notifOutput);
+                repairs.setText(repairsOutput);
+                todo.setText(todoOutput);
             }
-            return lineAdd;
-        } catch (IOException e) {
-            e.printStackTrace();
-            return "There are no notifications";
         }
-    }
+    };
 }
