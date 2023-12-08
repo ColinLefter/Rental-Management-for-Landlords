@@ -60,6 +60,7 @@ public class MainActivity extends AppCompatActivity {
 
         // Set OnClickListener for signInButton
         signInButton.setOnClickListener(v -> attemptSignIn());
+        createAccountButton.setOnClickListener(v -> navigateToCreateAccount());
     }
     @Override
     public boolean onSupportNavigateUp() {
@@ -102,5 +103,9 @@ public class MainActivity extends AppCompatActivity {
         bundle.putString("username", signInUsername.getText().toString().trim());
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_activity_main);
         navController.navigate(R.id.majorTask1, bundle);
+    }
+    private void navigateToCreateAccount() {
+        NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_activity_main);
+        navController.navigate(R.id.createAccount);
     }
 }

@@ -89,7 +89,31 @@
         android:id="@+id/createAccount"
         android:name="com.example.rentalmanagementforlandlords.ui.createAccount"
         android:label="Create Account"
-        tools:layout="@layout/create_account" />
+        tools:layout="@layout/create_account">
+        <action
+            android:id="@+id/action_createAccount_to_task4FinancialData"
+            app:destination="@id/task4FinancialData" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/task4FinancialData"
+        android:name="com.example.rentalmanagementforlandlords.ui.majorTask4.task4FinancialData"
+        android:label="Financial Data"
+        tools:layout="@layout/task_4_financial_data">
+        <action
+            android:id="@+id/action_task4FinancialData_to_task4ExpensesData"
+            app:destination="@id/task4ExpensesData" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/task4ExpensesData"
+        android:name="com.example.rentalmanagementforlandlords.ui.majorTask4.task4ExpensesData"
+        android:label="Expenses Data"
+        tools:layout="@layout/task_4_expenses_data">
+        <action
+            android:id="@+id/action_task4ExpensesData_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
 
     <fragment
         android:id="@+id/task1_AddTenant"

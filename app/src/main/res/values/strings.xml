@@ -41,6 +41,8 @@
     <string name="how_many_bedrooms_does_it_have">How many bedrooms does it have?</string>
     <string name="enter_address">Enter address</string>
     <string name="what_is_the_address_of_your_first_property">What is the address of your first property?</string>
+    <string name="complete_account">Complete account</string>
+    <string name="create_account">Create Account</string>
 
     <string-array name="arraySpinner">
         <item>"Administrator"</item>
