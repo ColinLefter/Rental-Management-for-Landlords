@@ -98,7 +98,7 @@
         android:id="@+id/textView10"
         android:layout_width="300dp"
         android:layout_height="40dp"
-        android:layout_marginTop="56dp"
+        android:layout_marginTop="32dp"
         android:text="@string/please_enter_data_for_the_most_recently_completed_tax_year"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -123,11 +123,31 @@
         android:id="@+id/continueSection1"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="568dp"
+        android:layout_marginTop="596dp"
         android:text="@string/continueText"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/valuationInput"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="300dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="20dp"
+        android:text="What is your property valuation as per your latest property assessment?"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/numPropertiesInput" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -37,6 +37,7 @@ public class task4FinancialData extends Fragment {
         EditText expensesInput = financialBinding.expensesInput;
         EditText incomeTaxPcInput = financialBinding.incomeTaxPcInput;
         EditText numPropertiesInput = financialBinding.numPropertiesInput;
+        EditText valuationInput = financialBinding.valuationInput;
 
         // Get user ID from arguments
         if (getArguments() != null) {
@@ -50,6 +51,7 @@ public class task4FinancialData extends Fragment {
             String expenses = expensesInput.getText().toString();
             String incomeTaxPc = incomeTaxPcInput.getText().toString();
             String numProperties = numPropertiesInput.getText().toString();
+            String valuation = valuationInput.getText().toString();
 
             // Writing to the db
             DatabaseReference user = databaseReference.child(userID);
@@ -57,6 +59,7 @@ public class task4FinancialData extends Fragment {
             user.child("expenses").setValue(expenses);
             user.child("incomeTaxPc").setValue(incomeTaxPc);
             user.child("numProperties").setValue(numProperties);
+            user.child("valuation").setValue(valuation);
 
             // Navigate to task4ExpensesData fragment
             navigateToTask4ExpensesData();

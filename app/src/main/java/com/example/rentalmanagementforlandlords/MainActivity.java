@@ -5,10 +5,12 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.example.rentalmanagementforlandlords.ui.SharedViewModel;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.lifecycle.ViewModelProvider;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
@@ -71,6 +73,10 @@ public class MainActivity extends AppCompatActivity {
     private void attemptSignIn() {
         String username = signInUsername.getText().toString().trim();
         String password = signInPassword.getText().toString().trim();
+
+        // Create SharedViewModel
+        SharedViewModel sharedViewModel = new ViewModelProvider(this).get(SharedViewModel.class);
+        sharedViewModel.setUserID(username); // For export to all files
 
         // Check credentials in Firebase
         root.child(username).addListenerForSingleValueEvent(new ValueEventListener() {
