@@ -49,6 +49,15 @@ public class task3 extends Fragment {
             }
         });
 
+        Button button8 = root.findViewById(R.id.button8);
+        button8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                switchToCreateListFragment();
+            }
+        });
+
+
         return root;
     }
 
@@ -74,6 +83,16 @@ public class task3 extends Fragment {
         ViewGroup rootView = (ViewGroup) getView();
         rootView.removeAllViews();
         rootView.addView(agreementView);
+    }
+
+    private void switchToCreateListFragment() {
+        // Inflate the layout from task_3_createlist.xml
+        View createListView = getLayoutInflater().inflate(R.layout.task_3_createlist, null);
+
+        // Replace the current content with the new layout
+        ViewGroup rootView = (ViewGroup) getView();
+        rootView.removeAllViews();
+        rootView.addView(createListView);
     }
 
     @Override
