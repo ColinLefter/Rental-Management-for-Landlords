@@ -33,6 +33,14 @@ public class task3 extends Fragment {
             }
         });
 
+        Button button2 = root.findViewById(R.id.button2);
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                switchToViewApplicationsLayout();
+            }
+        });
+
         return root;
     }
 
@@ -44,7 +52,13 @@ public class task3 extends Fragment {
         ViewGroup rootView = (ViewGroup) getView();
         rootView.removeAllViews();
         rootView.addView(viewListingsView);
-        
+
+    }
+    private void switchToViewApplicationsLayout() {
+        View viewApplicationsView = getLayoutInflater().inflate(R.layout.task_3_viewapplications, null);
+        ViewGroup rootView = (ViewGroup) getView();
+        rootView.removeAllViews();
+        rootView.addView(viewApplicationsView);
     }
 
     @Override
