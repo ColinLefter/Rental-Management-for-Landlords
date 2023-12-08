@@ -19,6 +19,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <EditText
+            android:id="@+id/manage_tenantid"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -39,6 +40,7 @@
         app:layout_constraintTop_toBottomOf="@id/task1_manage_tenantid">
 
         <EditText
+            android:id="@+id/manage_rent"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -59,6 +61,7 @@
         app:layout_constraintTop_toBottomOf="@id/task1_manage_rent">
 
         <EditText
+            android:id="@+id/manage_deposit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -80,6 +83,7 @@
         app:layout_constraintTop_toBottomOf="@id/task1_manage_deposit">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/manage_cycle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Cycle"
@@ -109,6 +113,7 @@
         app:layout_constraintTop_toBottomOf="@id/task1_manage_banking">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/manage_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Name of Financial Institution"
@@ -127,6 +132,7 @@
         app:layout_constraintTop_toBottomOf="@id/task1_manage_name">
 
         <EditText
+            android:id="@+id/manage_instnum"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -147,6 +153,7 @@
         app:layout_constraintTop_toBottomOf="@id/task1_manage_instnum">
 
         <EditText
+            android:id="@+id/manage_transnum"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -165,6 +172,7 @@
         app:layout_constraintTop_toBottomOf="@id/task1_manage_transnum">
 
         <EditText
+            android:id="@+id/manage_accnum"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"

@@ -1,29 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
-
-    <ImageView
-        android:id="@+id/imageView12"
-        android:layout_width="392dp"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:baselineAligned="false"
-        app:srcCompat="@drawable/property1" />
+    tools:context=".ui.majorTask3.task3">
 
     <ImageView
         android:id="@+id/imageView13"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        app:srcCompat="@drawable/property2" />
+        android:layout_width="344dp"
+        android:layout_height="311dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="448dp"
+        android:src="@drawable/property1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
         android:id="@+id/imageView14"
-        android:layout_width="match_parent"
+        android:layout_width="336dp"
+        android:layout_height="267dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="304dp"
+        android:src="@drawable/property2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="327dp"
+        android:layout_height="272dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginBottom="120dp"
+        android:src="@drawable/property3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
-        app:srcCompat="@drawable/property3" />
-</LinearLayout>
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="704dp"
+        android:text="Your current listings:"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

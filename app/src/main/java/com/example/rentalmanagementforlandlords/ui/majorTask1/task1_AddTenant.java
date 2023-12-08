@@ -10,68 +10,72 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.EditText;
 
 import com.example.rentalmanagementforlandlords.R;
+import com.google.android.gms.tasks.Task;
+import com.google.android.material.textfield.TextInputEditText;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.IgnoreExtraProperties;
 
-/**
- * A simple {@link Fragment} subclass.
- * Use the {@link task1_AddTenant#newInstance} factory method to
- * create an instance of this fragment.
- */
 public class task1_AddTenant extends Fragment {
 
-    // TODO: Rename parameter arguments, choose names that match
-    // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-    private static final String ARG_PARAM1 = "param1";
-    private static final String ARG_PARAM2 = "param2";
-
-    // TODO: Rename and change types of parameters
-    private String mParam1;
-    private String mParam2;
-
-    public task1_AddTenant() {
-        // Required empty public constructor
-    }
-
-    /**
-     * Use this factory method to create a new instance of
-     * this fragment using the provided parameters.
-     *
-     * @param param1 Parameter 1.
-     * @param param2 Parameter 2.
-     * @return A new instance of fragment task1_AddTenant.
-     */
-    // TODO: Rename and change types and number of parameters
-    public static task1_AddTenant newInstance(String param1, String param2) {
-        task1_AddTenant fragment = new task1_AddTenant();
-        Bundle args = new Bundle();
-        args.putString(ARG_PARAM1, param1);
-        args.putString(ARG_PARAM2, param2);
-        fragment.setArguments(args);
-        return fragment;
-    }
+    private DatabaseReference mDatabase;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        if (getArguments() != null) {
-            mParam1 = getArguments().getString(ARG_PARAM1);
-            mParam2 = getArguments().getString(ARG_PARAM2);
-        }
-
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+        mDatabase = FirebaseDatabase.getInstance().getReference();
+
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_task1__add_tenant, container, false);
         NavController navController = NavHostFragment.findNavController(this);
 
         Button addTenantButton = view.findViewById(R.id.task1_addtenant_add);
         addTenantButton.setOnClickListener(l -> {
+            String name = ((TextInputEditText)view.findViewById(R.id.addtenant_name)).getText().toString();
+            String birthdate = ((EditText)view.findViewById(R.id.addtenant_birthdate)).getText().toString();
+            String email = ((TextInputEditText)view.findViewById(R.id.addtenant_email)).getText().toString();
+            String phoneNumber = ((TextInputEditText)view.findViewById(R.id.addtenant_phone)).getText().toString();
+            String address = ((TextInputEditText)view.findViewById(R.id.addtenant_address)).getText().toString();
+            Tenant tenant = new Tenant(name, birthdate, email, phoneNumber, address);
+            DatabaseReference tenantsRef = mDatabase.child("tenants");
+            DatabaseReference pushRef = tenantsRef.push();
+            pushRef.setValue(tenant).addOnSuccessListener(aVoid -> {
+                System.out.println("tenant added");
+            }).addOnFailureListener(e -> {
+                System.out.println("tenant failed");
+            });
             navController.popBackStack();
         });
         return view;
+    }
+
+    @IgnoreExtraProperties
+    public static class Tenant {
+
+        public String name;
+        public String birthdate;
+        public String email;
+        public String phoneNumber;
+        public String address;
+
+        public Tenant() {
+            // Default constructor required for calls to DataSnapshot.getValue(User.class)
+        }
+
+        public Tenant(String name, String birthdate, String email, String phoneNumber, String address) {
+            this.name = name;
+            this.birthdate = birthdate;
+            this.email = email;
+            this.phoneNumber = phoneNumber;
+            this.address = address;
+        }
     }
 }

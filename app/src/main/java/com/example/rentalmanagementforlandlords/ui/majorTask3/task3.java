@@ -4,12 +4,13 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.example.rentalmanagementforlandlords.databinding.Task1Binding;
+import com.example.rentalmanagementforlandlords.R;
 import com.example.rentalmanagementforlandlords.databinding.Task3Binding;
 
 public class task3 extends Fragment {
@@ -24,7 +25,74 @@ public class task3 extends Fragment {
         binding = Task3Binding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
+        Button button = root.findViewById(R.id.button);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                switchToAnotherLayout();
+            }
+        });
+
+        Button button2 = root.findViewById(R.id.button2);
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                switchToViewApplicationsLayout();
+            }
+        });
+
+        Button button3 = root.findViewById(R.id.button3);
+        button3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                switchToAgreementLayout();
+            }
+        });
+
+        Button button8 = root.findViewById(R.id.button8);
+        button8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                switchToCreateListFragment();
+            }
+        });
+
+
         return root;
+    }
+
+    private void switchToAnotherLayout() {
+        // Inflate the layout from task_3_viewlistings.xml
+        View viewListingsView = getLayoutInflater().inflate(R.layout.task_3_viewlistings, null);
+
+        // Replace the current content with the new layout
+        ViewGroup rootView = (ViewGroup) getView();
+        rootView.removeAllViews();
+        rootView.addView(viewListingsView);
+
+    }
+    private void switchToViewApplicationsLayout() {
+        View viewApplicationsView = getLayoutInflater().inflate(R.layout.task_3_viewapplications, null);
+        ViewGroup rootView = (ViewGroup) getView();
+        rootView.removeAllViews();
+        rootView.addView(viewApplicationsView);
+    }
+
+    private void switchToAgreementLayout() {
+        View agreementView = getLayoutInflater().inflate(R.layout.task_3_agreement, null);
+        ViewGroup rootView = (ViewGroup) getView();
+        rootView.removeAllViews();
+        rootView.addView(agreementView);
+    }
+
+    private void switchToCreateListFragment() {
+        // Inflate the layout from task_3_createlist.xml
+        View createListView = getLayoutInflater().inflate(R.layout.task_3_createlist, null);
+
+        // Replace the current content with the new layout
+        ViewGroup rootView = (ViewGroup) getView();
+        rootView.removeAllViews();
+        rootView.addView(createListView);
     }
 
     @Override
