@@ -12,6 +12,7 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 import androidx.navigation.NavController;
 import androidx.navigation.fragment.NavHostFragment;
+import androidx.lifecycle.ViewModelProvider;
 
 import com.example.rentalmanagementforlandlords.R;
 import com.example.rentalmanagementforlandlords.databinding.CreateAccountBinding;
@@ -65,8 +66,9 @@ public class createAccount extends Fragment {
         String lastName = lastNameEditText.getText().toString().trim();
         String email = emailEditText.getText().toString().trim();
 
-        // Create a Bundle and add the username
         userID = username;
+        SharedViewModel sharedViewModel = new ViewModelProvider(requireActivity()).get(SharedViewModel.class);
+        sharedViewModel.setUserID(userID); // For export to all files
 
         // this mock data is being used because this feature requires an API connection to the user's bank account
         // the feature reflects the act of parsing the user's transaction details and automatically identifying,
@@ -76,7 +78,8 @@ public class createAccount extends Fragment {
                 {"Max & Maximum Repairs", "Shopping", "14 Dec 2023", "$250.00"},
                 {"Thomas' Handyman", "Repairs", "07 Dec 2023", "$19.50"},
                 {"John Matthew Kayne", "Deposit", "06 Dec 2023", "$1350.00"},
-                {"Ann Marlin", "Deposit", "31 Nov 2023", "$1430.00"}
+                {"Ann Marlin", "Deposit", "31 Nov 2023", "$1430.00"},
+                {"XYZ Services", "Maintenance", "15 Dec 2023", "$300.00"} // Example of new row
         };
 
         // Validate inputs
@@ -159,7 +162,7 @@ public class createAccount extends Fragment {
             expensesList.add(rowList);
         }
         user.child("expensesMatrix").setValue(expensesList);
-        
+
     }
 
     @Override

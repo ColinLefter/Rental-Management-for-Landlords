@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
@@ -65,6 +66,7 @@ public class task4ExpensesData extends Fragment {
             user.child("yearToDateExpenses").setValue(ytdExp);
 
             // Navigate back to the main (sign-in) page
+            Toast.makeText(getContext(), "Account created!", Toast.LENGTH_SHORT).show();
             NavController navController = NavHostFragment.findNavController(this);
             navController.navigate(R.id.action_task4ExpensesData_to_mainFragment);
         });

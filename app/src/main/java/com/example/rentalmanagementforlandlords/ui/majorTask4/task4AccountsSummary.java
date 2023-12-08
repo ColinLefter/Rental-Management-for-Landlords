@@ -8,8 +8,10 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
+import androidx.lifecycle.ViewModelProvider;
 
 import com.example.rentalmanagementforlandlords.R;
+import com.example.rentalmanagementforlandlords.ui.SharedViewModel;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -27,6 +29,9 @@ public class task4AccountsSummary extends Fragment {
 
         View view = inflater.inflate(R.layout.task_4_accounts_summary, container, false);
 
+        SharedViewModel sharedViewModel = new ViewModelProvider(requireActivity()).get(SharedViewModel.class);
+        userID = sharedViewModel.getUserID(); // Retrieve the userID
+
         // Initialize Firebase Reference
         databaseReference = FirebaseDatabase.getInstance().getReference();
 
@@ -40,10 +45,7 @@ public class task4AccountsSummary extends Fragment {
         netIncomeAmount = view.findViewById(R.id.netIncomeAmount);
         numPropertiesOwned = view.findViewById(R.id.numPropertiesOwned);
 
-        if (getArguments() != null) {
-            userID = getArguments().getString("userID");
-            fetchData();
-        }
+        fetchData();
 
         return view;
     }
@@ -72,6 +74,7 @@ public class task4AccountsSummary extends Fragment {
                     taxAmount.setText(tax + "");
                     incomeATaxAmount.setText(incomeATax + "");
                     netIncomeAmount.setText(incomeATax + "");
+                    netIncome.setText(incomeATax + "");
                     numPropertiesOwned.setText(numProperties);
                 }
             }
