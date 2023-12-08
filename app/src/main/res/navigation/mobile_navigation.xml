@@ -55,7 +55,26 @@
         android:id="@+id/majorTask5"
         android:name="com.example.rentalmanagementforlandlords.ui.majorTask5.task5"
         android:label="@string/title_collaboration"
-        tools:layout="@layout/task_5" />
+        tools:layout="@layout/task_5">
+        <action
+            android:id="@+id/action_task5_to_task5Add"
+            app:destination="@id/task5Add" />
+        <action
+            android:id="@+id/action_task5_to_task5Edit"
+            app:destination="@id/task5Edit" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/task5Add"
+        android:name="com.example.rentalmanagementforlandlords.ui.majorTask5.task5Add"
+        android:label="Add User"
+        tools:layout="@layout/task_5_add" />
+
+    <fragment
+        android:id="@+id/task5Edit"
+        android:name="com.example.rentalmanagementforlandlords.ui.majorTask5.task5Edit"
+        android:label="Edit User"
+        tools:layout="@layout/task_5_edit" />
 
     <fragment
         android:id="@+id/task4AccountsSummary"

@@ -8,8 +8,9 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
+import androidx.navigation.fragment.NavHostFragment;
 
-import com.example.rentalmanagementforlandlords.databinding.Task1Binding;
+import com.example.rentalmanagementforlandlords.R;
 import com.example.rentalmanagementforlandlords.databinding.Task5Binding;
 
 public class task5 extends Fragment {
@@ -24,7 +25,21 @@ public class task5 extends Fragment {
         binding = Task5Binding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
+        // Set up button click listeners
+        binding.addUsers.setOnClickListener(v -> navigateToAddUsers());
+        binding.editUsers.setOnClickListener(v -> navigateToEditUsers());
+
         return root;
+    }
+
+    private void navigateToAddUsers() {
+        // Navigate to the Add Users fragment
+        NavHostFragment.findNavController(this).navigate(R.id.action_task5_to_task5Add);
+    }
+
+    private void navigateToEditUsers() {
+        // Navigate to the Edit Users fragment
+        NavHostFragment.findNavController(this).navigate(R.id.action_task5_to_task5Edit);
     }
 
     @Override
