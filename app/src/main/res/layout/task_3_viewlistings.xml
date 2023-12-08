@@ -6,34 +6,53 @@
     android:layout_height="match_parent"
     tools:context=".ui.majorTask3.task3">
 
-    <ImageButton
-        android:id="@+id/imageButton5"
-        android:layout_width="632dp"
-        android:layout_height="174dp"
-        android:layout_marginTop="16dp"
-        app:layout_constraintBottom_toTopOf="@+id/imageButton6"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.692"
-        app:srcCompat="@drawable/property1"
-        tools:layout_editor_absoluteX="16dp"
-        tools:ignore="MissingConstraints" />
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="344dp"
+        android:layout_height="311dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="448dp"
+        android:src="@drawable/property1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
-    <ImageButton
-        android:id="@+id/imageButton6"
-        android:layout_width="616dp"
-        android:layout_height="171dp"
-        android:layout_marginStart="16dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/property2"
-        tools:layout_editor_absoluteY="317dp"
-        tools:ignore="MissingConstraints" />
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="336dp"
+        android:layout_height="267dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="304dp"
+        android:src="@drawable/property2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
-    <ImageButton
-        android:id="@+id/imageButton8"
-        android:layout_width="630dp"
-        android:layout_height="168dp"
-        app:srcCompat="@drawable/property3"
-        tools:layout_editor_absoluteX="19dp"
-        tools:layout_editor_absoluteY="513dp"
-        tools:ignore="MissingConstraints" />
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="327dp"
+        android:layout_height="272dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginBottom="120dp"
+        android:src="@drawable/property3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="96dp"
+        android:layout_marginBottom="88dp"
+        android:text="Add/Edit your listing"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="704dp"
+        android:text="Your current listings:"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
