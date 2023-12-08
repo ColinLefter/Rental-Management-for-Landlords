@@ -23,6 +23,24 @@
     <string name="email">Email</string>
     <string name="about_you">About you</string>
     <string name="login_details">Login details</string>
+    <string name="please_enter_data_for_the_most_recently_completed_tax_year">Please enter data for the most recently completed tax year</string>
+    <string name="section_1_summary_of_financial_accounts">Section 1: Summary of Financial Accounts</string>
+    <string name="continueText">Continue</string>
+    <string name="what_was_your_revenue_across_all_properties">What was your revenue across all properties?</string>
+    <string name="what_were_your_total_expenses">What were your total expenses?</string>
+    <string name="what_is_your_assessed_income_tax_as_a_percentage">What is your assessed income tax as a percentage?</string>
+    <string name="how_many_properties_did_you_own">How many properties did you own?</string>
+    <string name="section_2_summary_of_expenses">Section 2: Summary of Expenses</string>
+    <string name="please_enter_the_most_recent_data_available_for_the_current_year">Please enter the most recent data available for the current year</string>
+    <string name="ytd">YTD</string>
+    <string name="this_quarter">This quarter</string>
+    <string name="this_month">This month</string>
+    <string name="enter_a_number">Enter a number</string>
+    <string name="enter_your_expenses_for_the_time_period_specified">Enter your expenses for the time period specified</string>
+    <string name="how_many_bathrooms_does_it_have">How many bathrooms does it have?</string>
+    <string name="how_many_bedrooms_does_it_have">How many bedrooms does it have?</string>
+    <string name="enter_address">Enter address</string>
+    <string name="what_is_the_address_of_your_first_property">What is the address of your first property?</string>
 
     <string-array name="arraySpinner">
         <item>"Administrator"</item>

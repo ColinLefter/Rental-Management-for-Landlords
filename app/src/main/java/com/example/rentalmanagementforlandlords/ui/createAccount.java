@@ -66,7 +66,7 @@ public class createAccount extends Fragment {
         double incomeBTax = revenue - expenses;
         double tax = 6678.88;
         double incomeATax = incomeBTax - tax;
-        double numProperties = 2;
+        int numProperties = 2;
 
         String[][] expensesMatrix = {
                 {"We Fix It", "Shopping", "13 Dec 2023", "$75.67"},
@@ -77,10 +77,7 @@ public class createAccount extends Fragment {
         };
 
         // Write to database
-        writeToDB(username, password, firstName, lastName, email,
-                  totalAssetValuation, mFees, qFees, ytdFees,
-                  revenue, expenses, incomeBTax, tax, incomeATax, incomeATax, numProperties,
-                  expensesMatrix);
+        writeToDB(username, password, firstName, lastName, email);
 
         // After writing to the database, navigate back to the main activity
         NavController navController = NavHostFragment.findNavController(this);
@@ -88,33 +85,14 @@ public class createAccount extends Fragment {
     }
 
     public void writeToDB(String username, String password, String firstName, String lastName,
-                          String email, double totalAssetValuation, double mFees,
-                          double qFees, double ytdFees, double revenue, double expenses,
-                          double incomeBTax, double tax, double incomeATax, double netIncome, double numProperties,
-                          String[][] expensesMatrix) {
+                          String email) {
 
-        DatabaseReference currentStudent = root.child(username);
-        currentStudent.child("password").setValue(password);
-        currentStudent.child("firstName").setValue(firstName);
-        currentStudent.child("lastName").setValue(lastName);
-        currentStudent.child("email").setValue(email);
-        currentStudent.child("totalAssetValuation").setValue(totalAssetValuation);
-        currentStudent.child("mFees").setValue(mFees);
-        currentStudent.child("qFees").setValue(qFees);
-        currentStudent.child("ytdFees").setValue(ytdFees);
-        currentStudent.child("revenue").setValue(revenue);
-        currentStudent.child("expenses").setValue(expenses);
-        currentStudent.child("incomeBeforeTax").setValue(incomeBTax);
-        currentStudent.child("tax").setValue(tax);
-        currentStudent.child("incomeAfterTax").setValue(incomeATax);
-        currentStudent.child("netIncome").setValue(netIncome);
-
-        List<List<String>> expensesList = new ArrayList<>();
-        for (String[] expensesRow : expensesMatrix) {
-            List<String> rowList = new ArrayList<>(Arrays.asList(expensesRow));
-            expensesList.add(rowList);
-        }
-        currentStudent.child("expensesMatrix").setValue(expensesList);
+        DatabaseReference user = root.child(username);
+        user.child("password").setValue(password);
+        user.child("firstName").setValue(firstName);
+        user.child("lastName").setValue(lastName);
+        user.child("email").setValue(email);
+        
     }
 
     @Override

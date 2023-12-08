@@ -8,7 +8,7 @@
     <fragment
         android:id="@+id/majorTask1"
         android:name="com.example.rentalmanagementforlandlords.ui.majorTask1.task1"
-        android:label="@string/title_home"
+        android:label="@string/title_accounting"
         tools:layout="@layout/task_1" >
         <action
             android:id="@+id/action_majorTask1_to_majorTask2"
@@ -27,7 +27,7 @@
     <fragment
         android:id="@+id/majorTask2"
         android:name="com.example.rentalmanagementforlandlords.ui.majorTask2.task2"
-        android:label="@string/title_accounting"
+        android:label="@string/title_home"
         tools:layout="@layout/task_2" />
 
     <fragment

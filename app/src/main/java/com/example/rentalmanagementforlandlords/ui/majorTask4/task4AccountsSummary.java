@@ -8,7 +8,7 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
-import androidx.media3.common.util.Log;
+import android.util.Log;
 
 import com.example.rentalmanagementforlandlords.R;
 import com.example.rentalmanagementforlandlords.databinding.Task4AccountsSummaryBinding;
@@ -22,7 +22,7 @@ public class task4AccountsSummary extends Fragment {
 
     private DatabaseReference databaseReference;
     private TextView netIncome, revenueAmount, expensesAmount, incomeBTaxAmount, taxAmount, incomeATaxAmount, netIncomeAmount, numPropertiesOwned;
-    private String username;
+    private String userID;
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
 
@@ -42,7 +42,7 @@ public class task4AccountsSummary extends Fragment {
         numPropertiesOwned = view.findViewById(R.id.numPropertiesOwned);
 
         if (getArguments() != null) {
-            username = getArguments().getString("username");
+            userID = getArguments().getString("userID");
         }
 
         // Fetch data from Firebase
@@ -52,43 +52,44 @@ public class task4AccountsSummary extends Fragment {
     }
 
     private void fetchData() {
-        if (username != null) {
-            databaseReference.child(username) // Use username to form the correct path
+        if (userID != null) {
+            databaseReference.child(userID) // Use userID to form the correct path
                     .addListenerForSingleValueEvent(new ValueEventListener() {
                         @Override
                         public void onDataChange(DataSnapshot dataSnapshot) {
                             if (dataSnapshot.exists()) {
                                 // Retrieve data from the snapshot
-                                String netIncomeValue = dataSnapshot.child("netIncome").getValue(String.class);
-                                String revenueValue = dataSnapshot.child("revenue").getValue(String.class);
-                                String expensesValue = dataSnapshot.child("expenses").getValue(String.class);
-                                String incomeBeforeTaxValue = dataSnapshot.child("incomeBeforeTax").getValue(String.class);
-                                String taxValue = dataSnapshot.child("tax").getValue(String.class);
-                                String incomeAfterTaxValue = dataSnapshot.child("incomeAfterTax").getValue(String.class);
-                                String netIncomeTotalValue = dataSnapshot.child("netIncomeTotal").getValue(String.class);
-                                String numPropertiesOwnedValue = dataSnapshot.child("numPropertiesOwned").getValue(String.class);
+                                Double netIncomeValue = dataSnapshot.child("netIncome").getValue(Double.class);
+                                Double revenueValue = dataSnapshot.child("revenue").getValue(Double.class);
+                                // Assuming expensesValue is not needed for a TextView update
+                                Double incomeBeforeTaxValue = dataSnapshot.child("incomeBeforeTax").getValue(Double.class);
+                                Double taxValue = dataSnapshot.child("tax").getValue(Double.class);
+                                Double incomeAfterTaxValue = dataSnapshot.child("incomeAfterTax").getValue(Double.class);
+                                Double netIncomeTotalValue = dataSnapshot.child("netIncomeTotal").getValue(Double.class);
+                                Integer numPropertiesOwnedValue = dataSnapshot.child("numPropertiesOwned").getValue(Integer.class);
 
-                                System.out.println("Net Income: " + netIncomeValue);
+                                Log.d("Net Income", netIncomeValue != null ? netIncomeValue.toString() : "null");
 
                                 // Set values to TextViews
-                                netIncome.setText(netIncomeValue);
-                                revenueAmount.setText(revenueValue);
-                                expensesAmount.setText(expensesValue);
-                                incomeBTaxAmount.setText(incomeBeforeTaxValue);
-                                taxAmount.setText(taxValue);
-                                incomeATaxAmount.setText(incomeAfterTaxValue);
-                                netIncomeAmount.setText(netIncomeTotalValue);
-                                numPropertiesOwned.setText(numPropertiesOwnedValue);
+                                netIncome.setText(netIncomeValue != null ? String.format("%.2f", netIncomeValue) : "N/A");
+                                revenueAmount.setText(revenueValue != null ? String.format("%.2f", revenueValue) : "N/A");
+                                // expensesAmount - needs specific handling based on its data structure
+                                incomeBTaxAmount.setText(incomeBeforeTaxValue != null ? String.format("%.2f", incomeBeforeTaxValue) : "N/A");
+                                taxAmount.setText(taxValue != null ? String.format("%.2f", taxValue) : "N/A");
+                                incomeATaxAmount.setText(incomeAfterTaxValue != null ? String.format("%.2f", incomeAfterTaxValue) : "N/A");
+                                netIncomeAmount.setText(netIncomeTotalValue != null ? String.format("%.2f", netIncomeTotalValue) : "N/A");
+                                numPropertiesOwned.setText(numPropertiesOwnedValue != null ? numPropertiesOwnedValue.toString() : "N/A");
                             }
                         }
 
                         @Override
                         public void onCancelled(DatabaseError databaseError) {
-                            // Handle possible errors
+                            Log.e("DatabaseError", databaseError.getMessage());
                         }
                     });
         }
     }
+
 
     @Override
     public void onDestroyView() {
